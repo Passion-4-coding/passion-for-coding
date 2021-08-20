@@ -5,7 +5,7 @@
 
 <header>
 	<a href="/">
-		<img class="logo" src={logo} alt="SvelteKit" />
+		<img width="60px" height="45px" class="logo" src={logo} alt="SvelteKit" />
 	</a>
 </header>
 
@@ -14,6 +14,6 @@
 
 	}
 	.logo {
-		width: 200px;
+		width: 60px;
 	}
 </style>
