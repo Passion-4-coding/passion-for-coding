@@ -3,30 +3,23 @@
 </script>
 
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Coding for passion</title>
+  <meta name="description" content="Coding for passion community web page.">
+  <meta name="keywords" content="web development, community, discord, coding for passion">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://res.cloudinary.com/terraweb/image/upload/v1625846117/Home/5f5a75b6c9ae0bbe09089809_5e5d2a6b74a68704abaa93bb_favicon-32x32_b8818b3ee8eca11b5b4efa3917a933d7_efc60i.png" rel="shortcut icon" type="image/x-icon">
+	
+
+	<meta property="og:title" content="Coding for passion">
+	<meta property="og:description" content="Coding for passion community web page.">
+	<meta content="https://res.cloudinary.com/terraweb/image/upload/v1625845588/Home/5f1407c49f647304c608f81f_Terra_Creative_16-9_kvvvh2.jpg" property="og:image">
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	Passion for coding
 </section>
 
 <style>
