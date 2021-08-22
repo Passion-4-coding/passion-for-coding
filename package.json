@@ -65,7 +65,7 @@
       "prettier --write",
       "eslint --fix"
     ],
-    "*.css": "stylelint --fix",
+    "*.{css,svelte}": "stylelint --fix",
     "*.svg": "svgo"
   }
 }
