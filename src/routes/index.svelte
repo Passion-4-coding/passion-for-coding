@@ -1,8 +1,11 @@
 <script context="module" lang="ts">
   export const prerender = true;
+  import '@fortawesome/fontawesome-free/css/brands.min.css';
+  import '@fortawesome/fontawesome-free/css/fontawesome.min.css';
 </script>
 
 <script lang="ts">
+  import DiscordButton from '$lib/Buttons/DiscordButton.svelte';
 </script>
 
 <svelte:head>
@@ -18,7 +21,7 @@
 
 <section>
   Passion for coding
-  <a href="https://discord-server.com/821695508925644852/join">Join our discord server</a>
+  <DiscordButton />
 </section>
 
 <style>
