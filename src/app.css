@@ -3,7 +3,7 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mont: 'Montserrat';
 	--color-white: #ffffff;
-	--color-primary: #6764E9;
+	--color-primary: #403ccb;
 	--color-secondary: #F5AD1C;
 	--color-bg: #F1EAE1;
 	--color-text: #6E675F;
@@ -33,6 +33,7 @@ body {
 	src: local(''),
 			url('/fonts/montserrat/montserrat-v24-latin-300.woff2') format('woff2'),
 			url('/fonts/montserrat/montserrat-v24-latin-300.woff') format('woff');
+	font-display: swap;
 }
 /* montserrat-regular - latin */
 @font-face {
@@ -42,6 +43,7 @@ body {
 	src: local(''),
 			url('/fonts/montserrat/montserrat-v24-latin-regular.woff2') format('woff2'),
 			url('/fonts/montserrat/montserrat-v24-latin-regular.woff') format('woff');
+	font-display: swap;
 }
 /* montserrat-800 - latin */
 @font-face {
@@ -51,4 +53,5 @@ body {
 	src: local(''),
 			url('/fonts/montserrat/montserrat-v24-latin-800.woff2') format('woff2'),
 			url('/fonts/montserrat/montserrat-v24-latin-800.woff') format('woff');
+	font-display: swap;
 }

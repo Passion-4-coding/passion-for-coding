@@ -4,7 +4,7 @@
 
 <header>
   <div class="container">
-    <img class="logo" src="/images/logo.svg" alt="passion for coding logo">
+    <img width="50px" height="38px" class="logo" src="/images/logo.svg" alt="passion for coding logo">
     <div class="text">
       <p class="passion">Passion for</p>
       <p class="coding">coding</p>
@@ -30,7 +30,7 @@
   }
   .coding {
     font-size: var(--font-size-lg);
-    color: var(--color-secondary);
+    color: var(--color-primary);
     text-transform: uppercase;
     font-weight: bold;
   }
