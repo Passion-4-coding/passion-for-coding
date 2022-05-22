@@ -28,7 +28,7 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png", "fonts/montserrat/images/logo.png", "fonts/montserrat/montserrat-v24-latin-300.eot", "fonts/montserrat/montserrat-v24-latin-300.svg", "fonts/montserrat/montserrat-v24-latin-300.ttf", "fonts/montserrat/montserrat-v24-latin-300.woff", "fonts/montserrat/montserrat-v24-latin-300.woff2", "fonts/montserrat/montserrat-v24-latin-800.eot", "fonts/montserrat/montserrat-v24-latin-800.svg", "fonts/montserrat/montserrat-v24-latin-800.ttf", "fonts/montserrat/montserrat-v24-latin-800.woff", "fonts/montserrat/montserrat-v24-latin-800.woff2", "fonts/montserrat/montserrat-v24-latin-regular.eot", "fonts/montserrat/montserrat-v24-latin-regular.svg", "fonts/montserrat/montserrat-v24-latin-regular.ttf", "fonts/montserrat/montserrat-v24-latin-regular.woff", "fonts/montserrat/montserrat-v24-latin-regular.woff2", "images/logo.svg", "robots.txt"]),
   mimeTypes: { ".png": "image/png", ".eot": "application/vnd.ms-fontobject", ".svg": "image/svg+xml", ".ttf": "font/ttf", ".woff": "font/woff", ".woff2": "font/woff2", ".txt": "text/plain" },
   _: {
-    entry: { "file": "start-bc78a7b6.js", "js": ["start-bc78a7b6.js", "chunks/index-09c70e88.js"], "css": [] },
+    entry: { "file": "start-656ead64.js", "js": ["start-656ead64.js", "chunks/index-09c70e88.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
