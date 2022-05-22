@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6000" height="4500" viewBox="0 0 6000 4500">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-5);
+        stroke: url(#linear-gradient-6);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="3480.411" y1="4435.22" x2="5180.249" y2="2479.78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fa891b"/>
+      <stop offset="1" stop-color="#efd81d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="4332.66" y1="2874.09" x2="4332.66" y2="1306.62" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="4332.66" y1="2874.09" x2="4332.66" y2="1306.62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#efd81d"/>
+      <stop offset="1" stop-color="#5753ec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1579.68" y1="2020.56" x2="1750.756" y2="65.156" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7875e6"/>
+      <stop offset="1" stop-color="#5753ec"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="622.453" y1="1623.16" x2="2707.983" y2="3194.72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5753ec"/>
+      <stop offset="1" stop-color="#7875e6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="1665.218" y1="3194.72" x2="1665.218" y2="1623.16" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g>
+    <path id="Shape_3_copy" data-name="Shape 3 copy" class="cls-1" d="M2953.92,3512.8v922.41L5706.71,3263.88v-784.1Z"/>
+    <path id="Shape_4_copy" data-name="Shape 4 copy" class="cls-2" d="M2953.92,1306.63v927.1l1705.27,640.36L5711.37,2481.2Z"/>
+    <path id="Shape_3_copy_2" data-name="Shape 3 copy 2" class="cls-3" d="M3042.54,987.855V65.157L287.919,1236.86l4.516,783.71Z"/>
+    <path id="Shape_4_copy_2" data-name="Shape 4 copy 2" class="cls-4" d="M3042.54,3194.73v-927.4L1340.1,1623.17,287.919,2016.06Z"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+:root {
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-mont: 'Montserrat';
+	--color-white: #ffffff;
+	--color-primary: #6764E9;
+	--color-secondary: #F5AD1C;
+	--color-bg: #F1EAE1;
+	--color-text: #6E675F;
+
+	--font-size-sm: 14px;
+	--font-size-md: 16px;
+	--font-size-lg: 18px;
+}
+
+body, p {
+	margin: 0px;
+}
+
+body {
+	background-color: var(--color-bg);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	src: local(''),
+			url('/fonts/montserrat/montserrat-v24-latin-300.woff2') format('woff2'),
+			url('/fonts/montserrat/montserrat-v24-latin-300.woff') format('woff');
+}
+/* montserrat-regular - latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+			url('/fonts/montserrat/montserrat-v24-latin-regular.woff2') format('woff2'),
+			url('/fonts/montserrat/montserrat-v24-latin-regular.woff') format('woff');
+}
+/* montserrat-800 - latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	src: local(''),
+			url('/fonts/montserrat/montserrat-v24-latin-800.woff2') format('woff2'),
+			url('/fonts/montserrat/montserrat-v24-latin-800.woff') format('woff');
+}

@@ -1,19 +1,39 @@
-<script lang="ts">
-	import { page } from '$app/stores';
-	import logo from './logo.svg';
+<script>
+  // your script goes here
 </script>
 
 <header>
-	<a href="/">
-		<img width="60px" height="45px" class="logo" src={logo} alt="SvelteKit" />
-	</a>
+  <div class="container">
+    <img class="logo" src="/images/logo.svg" alt="passion for coding logo">
+    <div class="text">
+      <p class="passion">Passion for</p>
+      <p class="coding">coding</p>
+    </div>
+  </div>
 </header>
 
 <style>
-	header {
-
-	}
-	.logo {
-		width: 60px;
-	}
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  .logo {
+    max-width: 50px;
+  }
+  .text {
+    margin-left: 10px;
+  }
+  .passion {
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+  }
+  .coding {
+    font-size: var(--font-size-lg);
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 </style>
+
+<!-- markup (zero or more items) goes here -->
