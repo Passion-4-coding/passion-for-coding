@@ -1,14 +1,19 @@
 <script>
-  // your script goes here
+  import Navigation from './Navigation.svelte';
 </script>
 
 <header>
   <div class="container">
-    <img width="50px" height="38px" class="logo" src="/images/logo.svg" alt="passion for coding logo">
-    <div class="text">
-      <p class="passion">Passion for</p>
-      <p class="coding">coding</p>
-    </div>
+    <a href="/">
+      <div class="logo-container">
+        <img width="50px" height="38px" class="logo" src="/images/logo.svg" alt="passion for coding logo">
+        <div class="text">
+          <p class="passion">Passion for</p>
+          <p class="coding">coding</p>
+        </div>  
+      </div>
+    </a>
+    <Navigation />
   </div>
 </header>
 
@@ -17,6 +22,11 @@
     display: flex;
     align-items: center;
     padding: 15px;
+    justify-content: space-between;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
   }
   .logo {
     max-width: 50px;
