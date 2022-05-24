@@ -1,15 +1,8 @@
 <script context="module" lang="ts">
+	export const load = () => {
+		return {
+			status: 302,
+			redirect: "/en",
+		};
+	}
 </script>
-
-<script lang="ts">
-</script>
-
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-</section>
-
-

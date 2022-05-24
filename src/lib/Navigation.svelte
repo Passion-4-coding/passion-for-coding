@@ -1,22 +1,25 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  import { useTranslations } from './translations';
+  
+  const { t } = useTranslations();
 </script>
 
 <nav class="navigation">
-  <a class="nav-item" href="https://discord.gg/zbMKUhSU7r">Join</a>
+  <a class="nav-item" href="https://discord.gg/zbMKUhSU7r">{t('join')}</a>
   <a
     class="nav-item"
     class:active={$page.url.pathname === '/contact'}
     title="Contact"
     href="/contact">
-      Contact
+      {t('contact')}
   </a>
   <a
     class="nav-item"
     class:active={$page.url.pathname === '/members'}
     title="Members"
     href="/members">
-      Members
+      {t('members')}
   </a>
 </nav>
 
