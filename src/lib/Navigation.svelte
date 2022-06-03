@@ -1,44 +1,46 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  import Link from './Link.svelte';
   import { useTranslations } from './translations';
-  
   const { t } = useTranslations();
 </script>
 
 <nav class="navigation">
-  <a class="nav-item" href="https://discord.gg/zbMKUhSU7r">{t('join')}</a>
-  <a
-    class="nav-item"
-    class:active={$page.url.pathname === '/contact'}
+  <Link external to='https://discord.gg/zbMKUhSU7r' class="nav-item">
+    {t('join')}
+  </Link>
+  <Link
+    to='/contact'
+    class="nav-item {$page.url.pathname.includes("/contact") && 'active'}"
     title="Contact"
-    href="/contact">
-      {t('contact')}
-  </a>
-  <a
-    class="nav-item"
-    class:active={$page.url.pathname === '/members'}
+    disabled
+  >
+    {t('contact')}
+  </Link>
+  <Link
+    to='/members'
+    class="nav-item {$page.url.pathname.includes("/members") && 'active'}"
     title="Members"
-    href="/members">
-      {t('members')}
-  </a>
+    disabled
+  >
+    {t('members')}
+  </Link>
 </nav>
 
 <style>
   nav.navigation {
-    list-style-type: none;
-    padding-left: 0;
     display: flex;
   }
 
-  .nav-item {
+  nav.navigation :global(.nav-item) {
     margin-left: 20px;
   }
 
-  .nav-item.active {
+  nav.navigation :global(.nav-item.active:not(.disabled)) {
     font-weight: bold;
   }
 
-  .nav-item::before {
+  nav.navigation :global(.nav-item::before) {
     display: block;
     content: attr(title);
     font-weight: bold;

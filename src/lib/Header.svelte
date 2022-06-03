@@ -1,10 +1,12 @@
 <script>
+  import Languages from './Languages.svelte';
+import Link from './Link.svelte';
   import Navigation from './Navigation.svelte';
 </script>
 
 <header>
   <div class="container">
-    <a href="/">
+    <Link to="/">
       <div class="logo-container">
         <img width="50px" height="38px" class="logo" src="/images/logo.svg" alt="passion for coding logo">
         <div class="text">
@@ -12,8 +14,9 @@
           <p class="coding">coding</p>
         </div>  
       </div>
-    </a>
+    </Link>
     <Navigation />
+    <Languages />
   </div>
 </header>
 
