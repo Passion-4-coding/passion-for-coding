@@ -2,14 +2,14 @@
 </script>
 
 <script lang="ts">
+	import HomeHero from "$lib/Home/HomeHero.svelte";
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Passion for coding</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-</section>
+<HomeHero />
 
 

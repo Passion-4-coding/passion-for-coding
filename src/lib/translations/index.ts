@@ -16,8 +16,8 @@ export { languages };
 
 export const useTranslations = () => {
   const translations = getContext(TRANSLATIONS_KEY) as Translation;
-
-  const t = (key: string) => translations[key];
+  
+  const t = (key: string) => translations[key] ? translations[key] : key;
 
   return { t };
 }
