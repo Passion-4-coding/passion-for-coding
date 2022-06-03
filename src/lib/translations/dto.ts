@@ -7,3 +7,11 @@ export interface ITranslations {
   ua: Translation;
   ru: Translation;
 }
+
+export interface IRegistry {
+  location: {
+    country: {
+      code: string;
+    }
+  }
+}
