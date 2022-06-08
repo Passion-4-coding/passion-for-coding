@@ -1,13 +1,11 @@
 <script lang="ts">
   import { useTranslations } from "$lib/translations";
-  import HomeHeroSymbols from "./HomeHeroSymbols.svelte";
 
   const { t } = useTranslations();
 </script>
 
 <div class="container">
   <div class="bg" />
-  <HomeHeroSymbols />
   <h1>
     {t('heroTitle1')}
     {t('heroTitle2')}

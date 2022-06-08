@@ -2,6 +2,7 @@
 </script>
 
 <script lang="ts">
+	//import HomeActions from "$lib/Home/HomeActions.svelte";
 	import HomeHero from "$lib/Home/HomeHero.svelte";
 </script>
 
@@ -12,5 +13,6 @@
 </svelte:head>
 
 <HomeHero />
+<!-- <HomeActions /> -->
 
 
