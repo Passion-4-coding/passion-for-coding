@@ -1,7 +1,7 @@
 import { getContext, setContext } from "svelte";
-import { en } from "./en";
-import { ua } from "./ua";
-import { ru } from "./ru";
+import en from "./en.json";
+import ua from "./ua.json";
+import ru from "./ru.json";
 import type { IRegistry, ITranslations, Languages, Translation } from "./dto";
 export type { Languages, Translation };
 
@@ -14,11 +14,16 @@ const RUSSIAN_SPEAKING_COUNTRY_CODES = ['RU', 'BY', 'KG', 'KZ', 'AZ', 'GE', 'MD'
 
 export { languages };
 
-export const useTranslations = () => {
+export const useTranslations = (module?: string) => {
   const translations = getContext(TRANSLATIONS_KEY) as Translation;
   
-  const t = (key: string) => translations[key] ? translations[key] : key;
-
+  const t = (key: string) => {
+    if (module) {
+      const moduleTranslations = translations[module] as {[key: string]: string};
+      return moduleTranslations && moduleTranslations[key] ? moduleTranslations[key] : key
+    }
+    return translations[key] ? translations[key] : key;
+  };
   return { t };
 }
 

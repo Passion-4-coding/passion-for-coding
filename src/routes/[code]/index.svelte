@@ -2,8 +2,8 @@
 </script>
 
 <script lang="ts">
-	//import HomeActions from "$lib/Home/HomeActions.svelte";
 	import HomeHero from "$lib/Home/HomeHero.svelte";
+	import HomeDescription from "$lib/Home/HomeDescription.svelte";
 </script>
 
 <svelte:head>
@@ -13,6 +13,6 @@
 </svelte:head>
 
 <HomeHero />
-<!-- <HomeActions /> -->
+<HomeDescription />
 
 

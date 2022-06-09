@@ -1,0 +1,45 @@
+{
+  "header": {
+    "join": "Join"
+  },
+  "hero" : {
+    "title": "Passion For <span class='color-primary'>Coding<span>",
+    "description": "We are a community of software developers in <b>Discord</b>",
+    "cta": "Join our community"
+  },
+  "about": "We are actively growing <b>community</b> of software developers. <b>Passion for coding</b> was created for gathering different people to make <b>good atmosphere</b> of education process. Our community is based in <b>Discord</b>. This platform is a good place to build good structure for <b>people communications</b>.",
+  "benefits": {
+    "title1": "500+",
+    "description1": "Members already joined",
+    "title2": "20+",
+    "description2": "Channels to learn, talk and have fun",
+    "member": "member",
+    "members": "members",
+    "description3": "currently online",
+    "description3One": "currently online",
+    "title4": "∞",
+    "description4": "Amount of knowledge you can earn"
+  },
+  "roles": {
+    "title": "Our roles",
+    "description": "Community roles do not measure knowledge. They show the <span class='primary-color'>activity</span> of the participant.",
+    "service": "Service",
+    "serviceDescription": "Technical role for bots",
+    "trainee": "Trainee",
+    "traineeDescription": "Welcome role",
+    "junior": "Junior",
+    "juniorDescription": "Just be active one day",
+    "middle": "Middle",
+    "middleDescription": "Help someone",
+    "senior": "Senior",
+    "seniorDescription": "Help regularly",
+    "principal": "Principal",
+    "principalDescription": "Be active and help",
+    "architect": "Architect",
+    "architectDescription": "Do more than Principal :)",
+    "lead": "Lead",
+    "leadDescription": "Moderators role",
+    "owner": "Owner",
+    "ownerDescription": "Community owner role"
+  }
+}

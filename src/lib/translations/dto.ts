@@ -1,6 +1,6 @@
 export type Languages = 'en' | 'ua' | 'ru';
 
-export type Translation = { [key: string]: string };
+export type Translation = { [key: string]: string | {[key: string]: string} };
 
 export interface ITranslations {
   en: Translation;

@@ -1,0 +1,44 @@
+{
+  "header": {
+    "join": "Долучитись"
+  },
+  "hero" : {
+    "title": "Passion For <span class='color-primary'>Coding<span>",
+    "description": "Ми спільнота розробників в <b>Discord</b>",
+    "cta": "Долучайтесь до нашої спільноти"
+  },
+  "about": "Ми <b>спільнота</b> розробників що активно розвивається. <b>Passion for coding</b> була створена для об'єднання людей щоб створити <b>гарну атмосферу</b> для спільного навчання. Нашу спільноту ми будуємо в <b>Discord</b>. Ця платформа - гарне місце, яке дає усі можливості побудови структури для <b>коммунікації між людьми</b>.",
+  "benefits": {
+    "title1": "500+",
+    "description1": "Учасників уже долучилось",
+    "title2": "20+",
+    "description2": "Каналів для навчання, спілкування та розваг",
+    "member": "учасник",
+    "members": "учасників",
+    "description3": "зараз в мережі",
+    "title4": "∞",
+    "description4": "Кількість знань ти можеш отримати"
+  },
+  "roles": {
+    "title": "Наші ролі",
+    "description": "Ролі спільноти не показують рівень знань. Вони показують <span class='primary-color'>активність</span> учасника.",
+    "service": "Service",
+    "serviceDescription": "Технічна роль для ботів",
+    "trainee": "Trainee",
+    "traineeDescription": "Роль для усіх нових учасників",
+    "junior": "Junior",
+    "juniorDescription": "Будь активним один день",
+    "middle": "Middle",
+    "middleDescription": "Допоможи комусь",
+    "senior": "Senior",
+    "seniorDescription": "Допомагай регулярно",
+    "principal": "Principal",
+    "principalDescription": "Будь активним та допомагай",
+    "architect": "Architect",
+    "architectDescription": "Роби більше ніж Principal :)",
+    "lead": "Lead",
+    "leadDescription": "Роль для модераторів",
+    "owner": "Owner",
+    "ownerDescription": "Роль засновника спільноти"
+  }
+}

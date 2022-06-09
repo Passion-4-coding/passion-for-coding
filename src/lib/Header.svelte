@@ -1,7 +1,10 @@
 <script>
-  import Languages from './Languages.svelte';
-import Link from './Link.svelte';
-  import Navigation from './Navigation.svelte';
+  import Button from './Button.svelte';
+  import Link from './Link.svelte';
+  import { DISCORD_LINK } from '$lib/constants';
+  import { useTranslations } from './translations';
+
+  const { t } = useTranslations("header")
 </script>
 
 <header>
@@ -15,8 +18,9 @@ import Link from './Link.svelte';
         </div>  
       </div>
     </Link>
-    <Navigation />
-    <Languages />
+    <a href={DISCORD_LINK}>
+      <Button variant="outlined" size="sm">{t("join")}</Button>
+    </a>
   </div>
 </header>
 
