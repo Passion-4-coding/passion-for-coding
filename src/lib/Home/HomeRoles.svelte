@@ -23,7 +23,7 @@
   <ul class="roles">
     {#each roles as role}
       <li class="role">
-        <img src={role.icon} alt={role.name} />
+        <img src={role.icon} alt={role.name} width="80px" height="80px" />
         <div class="text">
           <h5 class="role-title">{role.name}</h5>
           <p class="role-description">{role.description}</p>
