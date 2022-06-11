@@ -118,7 +118,7 @@
     .benefit {
       width: 150px;
       padding: 20px 10px;
-      max-height: 90px;
+      max-height: 110px;
     }
     .benefit-title {
       font-size: 36px;
@@ -161,7 +161,7 @@
     .benefit {
       width: 120px;
       padding: 15px 5px;
-      max-height: 80px;
+      max-height: 90px;
     }
     .benefit-title {
       font-size: var(--font-size-xl);

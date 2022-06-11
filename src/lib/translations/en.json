@@ -1,6 +1,7 @@
 {
   "header": {
-    "join": "Join"
+    "join": "Join",
+    "join-short": "Join"
   },
   "hero" : {
     "title": "Passion For Coding",
@@ -23,7 +24,7 @@
   },
   "roles": {
     "title": "Our roles",
-    "description": "Community roles do not measure knowledge. They show the <span class='primary-color'>activity</span> of the participant.",
+    "description": "Community roles do not measure knowledge. They show the <b>activity</b> of the participant.",
     "service": "Service",
     "serviceDescription": "Technical role for bots",
     "trainee": "Trainee",

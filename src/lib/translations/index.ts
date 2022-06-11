@@ -17,13 +17,13 @@ export { languages };
 export const useTranslations = (module?: string) => {
   const translations = getContext(TRANSLATIONS_KEY) as Translation;
   
-  const t = (key: string) => {
+  const t = (key: string): string => {
     if (!translations) return '';
     if (module) {
       const moduleTranslations = translations[module] as {[key: string]: string};
       return moduleTranslations && moduleTranslations[key] ? moduleTranslations[key] : key
     }
-    return translations[key] ? translations[key] : key;
+    return translations[key] ? translations[key] as string : key;
   };
   return { t };
 }

@@ -19,7 +19,10 @@
       </div>
     </Link>
     <a href={DISCORD_LINK}>
-      <Button variant="outlined" size="sm">{t("join")}</Button>
+      <Button variant="outlined" size="sm">
+        <span class="desktop">{t("join")}</span>
+        <span class="mobile">{t("join-short")}</span>
+      </Button>
     </a>
   </div>
 </header>

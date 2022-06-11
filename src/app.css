@@ -60,6 +60,10 @@ h3.title {
 	margin: 0 0 20px;
 }
 
+.mobile {
+	display: none;
+}
+
 @media(max-width: 992px) {
 	h3.title {
 		font-size: 36px;
@@ -76,6 +80,12 @@ h3.title {
 	h3.title {
 		font-size: var(--font-size-xl);
 		margin: 0 0 5px;
+	}
+	.mobile {
+		display: initial;
+	}
+	.desktop {
+		display: none;
 	}
 }
 
