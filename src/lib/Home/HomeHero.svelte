@@ -11,7 +11,7 @@
   <div class="left">
     <h1>
       {@html t('title')}
-      <span class="subtext">{t("in")} <img src="/images/discord.webp" width="100px" height="27px" alt="discord"></span>
+      <span class="subtext">{t("in")} <img src="/images/discord.svg" width="100px" height="27px" alt="discord"></span>
     </h1>
     <p class="description {lang}">{@html t("description")}</p>
     <a href={DISCORD_LINK} class="button-container">
