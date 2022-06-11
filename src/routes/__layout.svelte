@@ -4,11 +4,6 @@
 	import type { Languages, Translation } from '$lib/translations';
 
 	export const load: Load = async ({ params, fetch }) => {
-
-		const response = await fetch("https://discord.com/api/guilds/821695508925644852/widget.json");
-		const data = await response.json();
-		console.log(data);
-
 		const code = params.code as Languages;
 		if (!languages[code]) {
 			const defaultLanguage = await loadDefaultLanguage(fetch);

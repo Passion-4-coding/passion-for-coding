@@ -18,6 +18,7 @@ export const useTranslations = (module?: string) => {
   const translations = getContext(TRANSLATIONS_KEY) as Translation;
   
   const t = (key: string) => {
+    if (!translations) return '';
     if (module) {
       const moduleTranslations = translations[module] as {[key: string]: string};
       return moduleTranslations && moduleTranslations[key] ? moduleTranslations[key] : key
