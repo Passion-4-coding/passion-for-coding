@@ -14,17 +14,17 @@
   <ul class="languages">
     <li>
       <a class="language" class:active={currentLang === 'ua'} href={generateLink('ua')}>
-        <img src="images/ua.svg" alt="ua"> Українська
+        <img src="images/ua.svg" width="20px" height="20px" alt="ua"> Українська
       </a>
     </li>
     <li>
       <a class="language" class:active={currentLang === 'ru'} href={generateLink('ru')}>
-        <img src="images/ru.svg" alt="ru"> Русский
+        <img src="images/ru.svg" width="20px" height="20px" alt="ru"> Русский
       </a>
     </li>
     <li class="language">
       <a class="language" class:active={currentLang === 'en'} href={generateLink('en')}>
-        <img src="images/gb.svg" alt="en"> English
+        <img src="images/gb.svg" width="20px" height="20px" alt="en"> English
       </a>
     </li>
   </ul>

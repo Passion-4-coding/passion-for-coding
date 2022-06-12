@@ -13,7 +13,7 @@
     { name: t("architect"), description: t("architectDescription"), icon: "/images/architect.svg" },
     { name: t("lead"), description: t("leadDescription"), icon: "/images/lead.svg" },
     { name: t("owner"), description: t("ownerDescription"), icon: "/images/owner.svg" },
-  ]
+  ];
 
 </script>
 

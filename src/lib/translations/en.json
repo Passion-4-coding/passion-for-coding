@@ -43,5 +43,8 @@
     "leadDescription": "Moderators role",
     "owner": "Owner",
     "ownerDescription": "Community owner role"
+  },
+  "membersOnline": {
+    "title": "Members online"
   }
 }
