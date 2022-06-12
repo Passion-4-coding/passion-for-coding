@@ -43,5 +43,8 @@
     "leadDescription": "Роль для модераторів",
     "owner": "Owner",
     "ownerDescription": "Роль засновника спільноти"
+  },
+  "membersOnline": {
+    "title": "Учасники в мережі"
   }
 }
