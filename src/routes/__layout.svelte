@@ -22,7 +22,8 @@
 </script>
 
 <script lang="ts">
-	import '../app.css';
+	import Footer from '$lib/Footer.svelte';
+import '../app.css';
 	import Header from '../lib/Header.svelte';
 	
 	export let translation: Translation;
@@ -46,6 +47,8 @@
 		<slot />
 	</div>
 </main>
+
+<Footer />
 
 <style>
 

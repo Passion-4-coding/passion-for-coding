@@ -20,8 +20,8 @@
     </a>
   </div>
   <div class="right">
-
       <img
+        loading="lazy"
         sizes="(max-width: 600px) 100vw, 600px"
         srcset="
           images/hero_w_200.webp 200w,
