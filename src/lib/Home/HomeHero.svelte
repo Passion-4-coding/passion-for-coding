@@ -20,7 +20,16 @@
     </a>
   </div>
   <div class="right">
-    <img src="/images/hero.webp" alt="community" width="550px" height="347px">
+
+      <img
+        sizes="(max-width: 600px) 100vw, 600px"
+        srcset="
+          images/hero_w_200.webp 200w,
+          images/hero_w_280.webp 280w,
+          images/hero_w_346.webp 346w,
+          images/hero_w_600.webp 600w"
+      src="images/hero_w_600.webp"
+      alt="">
   </div>
   <div class="bg" />
 </div>
@@ -71,11 +80,7 @@
   .description {
     font-size: var(--font-size-xl);
     margin: 30px 0px 50px;
-    max-width: 260px;
-  }
-
-  .description.en {
-    max-width: 250px;
+    max-width: 280px;
   }
 
   .right {
