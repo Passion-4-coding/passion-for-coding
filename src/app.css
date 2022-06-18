@@ -3,7 +3,9 @@
 	--font-main: 'Montserrat';
 	--color-white: #ffffff;
 	--color-primary: #403ccb;
+	--color-primary-30: #403ccb4D;
 	--color-secondary: #F5AD1C;
+	--color-secondary-30: #F5AD1C4D;
 	--color-bg: #F1EAE1;
 	--color-text: #393939;
 
@@ -55,32 +57,11 @@ img {
 	color: var(--color-primary);
 }
 
-h3.title {
-	font-size: 40px;
-	margin: 0 0 20px;
-}
-
 .mobile {
 	display: none;
 }
 
-@media(max-width: 992px) {
-	h3.title {
-		font-size: 36px;
-		margin: 0 0 15px;
-	}
-}
-@media(max-width: 768px) {
-	h3.title {
-		font-size: 28px;
-		margin: 0 0 10px;
-	}
-}
 @media(max-width: 600px) {
-	h3.title {
-		font-size: var(--font-size-xl);
-		margin: 0 0 5px;
-	}
 	.mobile {
 		display: initial;
 	}

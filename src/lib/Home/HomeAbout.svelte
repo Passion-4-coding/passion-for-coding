@@ -2,6 +2,7 @@
   import { getContext } from "svelte";
   import type { IChannel } from "$lib/discord";
   import { useTranslations } from "$lib/translations";
+  import Title from "$lib/Title.svelte";
   
   const channel: IChannel = getContext("channel");
 
@@ -12,7 +13,7 @@
 
 <div class="container">
   <div class="left">
-    <h3 class="title">{@html aboutT("title")}</h3>
+    <Title>{aboutT("title")}</Title>
     <p class="description">
       {@html aboutT("description")}
     </p>
@@ -44,6 +45,7 @@
     display: flex;
     max-width: 1230px;
     padding: 50px 0px;
+    margin-top: 30px;
   }
 
   .description {
@@ -85,22 +87,22 @@
 
   .benefit1 {
     grid-area: benefit1;
-    background-color: rgba(103, 100, 233, 0.3);
+    background-color: var(--color-primary-30);
   }
   
   .benefit2 {
     grid-area: benefit2;
-    background-color: rgba(245, 173, 28, 0.3);
+    background-color: var(--color-secondary-30);
   }
   
   .benefit3 {
     grid-area: benefit3;
-    background-color: rgba(245, 173, 28, 0.3);
+    background-color: var(--color-secondary-30);
   }
   
   .benefit4 {
     grid-area: benefit4;
-    background-color: rgba(103, 100, 233, 0.3);
+    background-color: var(--color-primary-30);
   }
 
   .benefit4 .benefit-title {
@@ -134,9 +136,6 @@
   @media(max-width: 768px) {
     .container {
       flex-direction: column;
-    }
-    h3.title {
-      text-align: center;
     }
     .description {
       text-align: center;

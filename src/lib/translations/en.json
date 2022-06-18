@@ -46,5 +46,14 @@
   },
   "membersOnline": {
     "title": "Members online"
+  },
+  "actions": {
+    "title": "What you can do here",
+    "action1Title": "Post a job",
+    "action1Description": "Post a vacancy in the #vacancies channel. In the #projects channel, place your project and find volunteers to help you with.",
+    "action2Title": "Become a member",
+    "action2Description": "Have lots of interesting activities for yourself. Humor, education, amazing events, and more other things.",
+    "action3Title": "Post an article",
+    "action3Description": "Besides learning and improving yourself, you can also help others. Place an article and help our community learn something new."
   }
 }

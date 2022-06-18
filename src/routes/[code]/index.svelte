@@ -17,7 +17,7 @@
 	import HomeHero from "$lib/Home/HomeHero.svelte";
 	import HomeAbout from "$lib/Home/HomeAbout.svelte";
 	import HomeRoles from "$lib/Home/HomeRoles.svelte";
-	import HomeMembersOnline from "$lib/Home/HomeMembersOnline.svelte";
+	import HomeActions from "$lib/Home/HomeActions.svelte";
 
 	export let channel: IChannel;
 	setContext("channel", channel);
@@ -31,7 +31,7 @@
 
 <HomeHero />
 <HomeAbout />
+<HomeActions />
 <HomeRoles />
-<HomeMembersOnline />
 
 

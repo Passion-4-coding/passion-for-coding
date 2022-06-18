@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Title from "$lib/Title.svelte";
   import { useTranslations } from "$lib/translations";
 
   const { t } = useTranslations("roles");
@@ -18,7 +19,7 @@
 </script>
 
 <div class="container">
-  <h3 class="title">{t("title")}</h3>
+  <Title>{t("title")}</Title>
   <p class="description">{@html t("description")}</p>
   <ul class="roles">
     {#each roles as role}
