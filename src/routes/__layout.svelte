@@ -23,7 +23,7 @@
 
 <script lang="ts">
 	import Footer from '$lib/Footer.svelte';
-import '../app.css';
+	import '../app.css';
 	import Header from '../lib/Header.svelte';
 	
 	export let translation: Translation;
@@ -34,10 +34,19 @@ import '../app.css';
 </script>
 
 <svelte:head>
-	<title>Passion for coding</title>
-	<meta name="description" content="Passion for coding, discord community for developers">
-	<meta name="keywords" content="Discord community, passion for coding, freelance, upwork, coding, programming, developers">
 	<html {lang} />
+	<title>Passion for coding - Software developers community in Discord</title>
+	<meta name="description" content="Passion for coding, discord community for developers">
+	<meta name="keywords" content="Discord community, passion for coding, freelance, upwork, coding, programming, developers, post vacancy, software developers, community">
+	{#if lang !== 'en'}
+		<link rel="alternate" hreflang="en" href="https://codesire.io/en" />
+	{/if}
+	{#if lang !== 'ua'}
+		<link rel="alternate" hreflang="ua" href="https://codesire.io/ua" />
+	{/if}
+	{#if lang !== 'ru'}
+		<link rel="alternate" hreflang="ru" href="https://codesire.io/ru" />
+	{/if}
 </svelte:head>
 
 <Header />

@@ -26,7 +26,7 @@
       <li class="role">
         <img src={role.icon} alt={role.name} width="80px" height="80px" />
         <div class="text">
-          <h5 class="role-title">{role.name}</h5>
+          <h4 class="role-title">{role.name}</h4>
           <p class="role-description">{role.description}</p>
         </div>
       </li>

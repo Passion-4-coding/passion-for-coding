@@ -10,17 +10,17 @@
   <ul class="actions">
     <li class="action secondary">
       <img src="/images/job.svg" alt="job" width="128px" height="128px">
-      <h4 class="action-title">{t("action1Title")}</h4>
+      <h3 class="action-title">{t("action1Title")}</h3>
       <p class="action-description">{t("action1Description")}</p>
     </li>
     <li class="action primary">
       <img src="/images/community.svg" alt="community" width="128px" height="128px">
-      <h4 class="action-title">{t("action2Title")}</h4>
+      <h3 class="action-title">{t("action2Title")}</h3>
       <p class="action-description">{t("action2Description")}</p>
     </li>
     <li class="action secondary">
       <img src="/images/article.svg" alt="article" width="128px" height="128px">
-      <h4 class="action-title">{t("action3Title")}</h4>
+      <h3 class="action-title">{t("action3Title")}</h3>
       <p class="action-description">{t("action3Description")}</p>
     </li>
   </ul>

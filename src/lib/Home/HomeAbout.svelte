@@ -21,19 +21,19 @@
   <div class="right">
     <ul class="benefits">
       <li class="benefit benefit1">
-        <h5 class="benefit-title">{t("title1")}</h5>
+        <h4 class="benefit-title">{t("title1")}</h4>
         <p class="benefit-description">{t("description1")}</p>
       </li>
       <li class="benefit benefit2">
-        <h5 class="benefit-title">{t("title2")}</h5>
+        <h4 class="benefit-title">{t("title2")}</h4>
         <p class="benefit-description">{t("description2")}</p>
       </li>
       <li class="benefit benefit3">
-        <h5 class="benefit-title">{channel.presence_count}</h5>
+        <h4 class="benefit-title">{channel.presence_count}</h4>
         <p class="benefit-description">{t("description3")}</p>
       </li>
       <li class="benefit benefit4">
-        <h5 class="benefit-title">{t("title4")}</h5>
+        <h4 class="benefit-title">{t("title4")}</h4>
         <p class="benefit-description">{t("description4")}</p>
       </li>
     </ul>

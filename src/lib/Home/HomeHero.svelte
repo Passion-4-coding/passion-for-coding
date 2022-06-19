@@ -20,16 +20,17 @@
     </a>
   </div>
   <div class="right">
-      <img
-        loading="lazy"
-        sizes="(max-width: 600px) 100vw, 600px"
-        srcset="
-          images/hero_w_200.webp 200w,
-          images/hero_w_280.webp 280w,
-          images/hero_w_346.webp 346w,
-          images/hero_w_600.webp 600w"
+    <img
+      loading="lazy"
+      sizes="(max-width: 600px) 100vw, 600px"
+      srcset="
+        images/hero_w_200.webp 200w,
+        images/hero_w_280.webp 280w,
+        images/hero_w_346.webp 346w,
+        images/hero_w_600.webp 600w"
       src="images/hero_w_600.webp"
-      alt="">
+      alt="Discord community"
+    >
   </div>
   <div class="bg" />
 </div>

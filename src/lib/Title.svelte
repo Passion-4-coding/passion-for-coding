@@ -1,11 +1,11 @@
 
-<h3>
+<h2>
 	<slot />
-</h3>
+</h2>
 <div class="line" />
 
 <style>
-  h3 {
+  h2 {
 		font-size: 40px;
 		margin: 0px 0px 5px;
 	}
@@ -18,7 +18,7 @@
 	}
 
 	@media(max-width: 992px) {
-		h3 {
+		h2 {
 			font-size: 36px;
 		}
 		.line {
@@ -26,7 +26,7 @@
 		}
 	}
 	@media(max-width: 768px) {
-		h3 {
+		h2 {
 			font-size: 28px;
 			text-align: center;
 		}
@@ -36,7 +36,7 @@
 		}
 	}
 	@media(max-width: 600px) {
-		h3 {
+		h2 {
 			font-size: var(--font-size-xl);
 		}
 		.line {
