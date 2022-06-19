@@ -1,1 +1,1 @@
-export const DISCORD_LINK = 'https://discord.gg/zbMKUhSU7r';
+export const DISCORD_LINK = 'https://discord.gg/passion-for-coding';
