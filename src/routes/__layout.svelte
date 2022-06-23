@@ -34,7 +34,6 @@
 </script>
 
 <svelte:head>
-	<html {lang} />
 	{#if lang === 'en'}
 		<title>Software developers community in Discord | Passion for coding</title>
 		<meta name="title" content="Software developers community in Discord | Passion for coding">
