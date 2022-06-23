@@ -11,7 +11,7 @@
 
 </script>
 
-<div class="container">
+<section class="container" id="about">
   <div class="left">
     <Title>{aboutT("title")}</Title>
     <p class="description">
@@ -38,7 +38,7 @@
       </li>
     </ul>
   </div>
-</div>
+</section>
 
 <style>
   .container { 

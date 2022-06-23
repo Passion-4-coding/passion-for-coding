@@ -5,7 +5,7 @@
   const { t } = useTranslations("actions");
 </script>
 
-<div class="container">
+<section class="container" id="actions">
   <Title>{t("title")}</Title>
   <ul class="actions">
     <li class="action secondary">
@@ -24,7 +24,7 @@
       <p class="action-description">{t("action3Description")}</p>
     </li>
   </ul>
-</div>
+</section>
 
 <style>
   .container {

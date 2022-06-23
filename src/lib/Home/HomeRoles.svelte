@@ -18,7 +18,7 @@
 
 </script>
 
-<div class="container">
+<div class="container" id="roles">
   <Title>{t("title")}</Title>
   <p class="description">{@html t("description")}</p>
   <ul class="roles">
