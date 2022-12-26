@@ -1,7 +1,7 @@
 <script context="module" lang="ts">
 	import type { Load } from '@sveltejs/kit';
-	import { languages, loadDefaultLanguage, setSelectedLanguage, setTranslations } from '$lib/translations';
-	import type { Languages, Translation } from '$lib/translations';
+	import { languages, loadDefaultLanguage, setSelectedLanguage, setTranslations } from '$lib/modules/translations';
+	import type { Languages, Translation } from '$lib/modules/translations';
 
 	export const load: Load = async ({ params, fetch }) => {
 		const code = params.code as Languages;
@@ -22,15 +22,15 @@
 </script>
 
 <script lang="ts">
-	import Footer from '$lib/Footer.svelte';
+	import { page } from '$app/stores';
 	import '../app.css';
-	import Header from '../lib/Header.svelte';
+	import Header from '../lib/components/Header.svelte';
 	
 	export let translation: Translation;
 	export let lang: Languages;
+	
 	setTranslations(translation);
 	setSelectedLanguage(lang);
-
 </script>
 
 <svelte:head>
@@ -79,17 +79,6 @@
 	<meta property="twitter:image" content="/images/social.png">
 </svelte:head>
 
-<Header />
+<Header isIndex={$page.routeId === "[code]"} />
 
-<main>
-	<div class="container">
-		<slot />
-	</div>
-</main>
-
-<Footer />
-
-<style>
-
-</style>
-
+<slot />

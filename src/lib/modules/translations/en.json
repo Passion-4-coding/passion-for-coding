@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "about": "about",
+    "activities": "activities",
+    "articles": "articles",
+    "roles": "roles",
+    "menu": "Menu"
+  },
+  "home": {
+    "tip": "Press to start...",
+    "online": "online"
+  }
+}

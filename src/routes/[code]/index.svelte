@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import type { Load } from "@sveltejs/kit";
-	import { getWidgetData, type IChannel } from "$lib/discord";
+	import DiscordLink from '$lib/components/DiscordLink.svelte';
+	import { getWidgetData, type IChannel } from "$lib/modules/discord";
 	
 	export const load: Load = async ({ fetch }) => {
 		const channel = await getWidgetData(fetch);
@@ -13,19 +14,91 @@
 </script>
 
 <script lang="ts">
-	import { setContext } from "svelte";
-	import HomeHero from "$lib/Home/HomeHero.svelte";
-	import HomeAbout from "$lib/Home/HomeAbout.svelte";
-	import HomeRoles from "$lib/Home/HomeRoles.svelte";
-	import HomeActions from "$lib/Home/HomeActions.svelte";
+  import { useTranslations } from "$lib/modules/translations";
+  import Link from "$lib/components/Link.svelte";
+  import PageWrapper from "$lib/components/PageWrapper.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 
 	export let channel: IChannel;
-	setContext("channel", channel);
+	const { t } = useTranslations("home");
 </script>
 
-<HomeHero />
-<HomeAbout />
-<HomeActions />
-<HomeRoles />
+<PageWrapper>
+	<Link to="/about" title="about">
+		<div class="home">
+			<img src="/images/logo-big.svg" alt="Passion for coding">
+			<h1 class="title">Passion for coding</h1>
+			<p class="tip">{t("tip")}</p>
+		</div>
+	</Link>
+</PageWrapper>
 
+<Footer>
+	<div class="online">
+		<div class="discord-container">
+			<DiscordLink />
+		</div>
+		&#123;<span class="number">{channel.presence_count}</span>{t("online")}&#125;
+	</div>
+</Footer>
+
+<style>
+	.home {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	img {
+		max-width: 180px;
+	}
+	.title {
+		font-weight: 700;
+		font-size: 118px;
+		line-height: 100px;
+		margin: 40px 0px 60px;
+		text-align: center;
+	}
+	.tip {
+		font-weight: 700;
+		font-size: 38px;
+		line-height: 32px;
+		margin: 0px;
+	}
+
+  .online {
+    display: flex;
+    align-items: center;
+		font-size: 38px;
+		line-height: 24px;
+  }
+
+	.discord-container {
+		margin-right: 10px;
+	}
+
+	.online .number {
+		color: var(--color-primary);
+		margin-right: 10px;
+	}
+
+	@media(max-width: 600px) {
+    img {
+      max-width: 85px;
+    }
+		.title {
+			font-size: 47px;
+			line-height: 44px;
+			margin: 20px 0px;
+		}
+		.tip {
+			font-size: 20px;
+		}
+		.online {
+			font-size: 28px;
+			line-height: 18px;
+		}
+	}
+</style>
 

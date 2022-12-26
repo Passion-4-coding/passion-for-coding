@@ -10,10 +10,19 @@
   }
 </script>
 
-Page is under development
+<div class="content">
+  Page is under development
+</div>
 
 <style>
-  /* your styles go here */
+  .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    line-height: 34px;
+  }
 </style>
 
 <!-- markup (zero or more items) goes here -->

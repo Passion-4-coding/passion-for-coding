@@ -1,13 +1,13 @@
 :root {
-	font-family: 'Montserrat', sans-serif;
-	--font-main: 'Montserrat';
+	font-family: 'Play', sans-serif;
+	--font-main: 'Play';
 	--color-white: #ffffff;
 	--color-primary: #403ccb;
 	--color-primary-30: #403ccb4D;
-	--color-secondary: #F5AD1C;
+	--color-secondary: #FFDC83;
 	--color-secondary-30: #F5AD1C4D;
-	--color-bg: #F1EAE1;
-	--color-text: #393939;
+	--color-bg: #2D2C45;
+	--color-text: #FFDC83;
 
 	--font-size-xs: 12px;
 	--font-size-sm: 14px;
@@ -23,6 +23,14 @@
 	--media-laptop: 992px; 
 }
 
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
 body, p {
 	margin: 0px;
 }
@@ -30,6 +38,7 @@ body, p {
 body {
 	background-color: var(--color-bg);
 	color: var(--color-text);
+	height: 100%;
 }
 
 a {
@@ -49,6 +58,12 @@ a {
 	padding: 0 10px;
 }
 
+#app {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
 img {
 	max-width: 100%;
 }
@@ -61,6 +76,10 @@ img {
 	display: none;
 }
 
+.overflow-hidden {
+	overflow: hidden;
+}
+
 @media(max-width: 600px) {
 	.mobile {
 		display: initial;
@@ -70,23 +89,21 @@ img {
 	}
 }
 
-/* montserrat-regular - latin_cyrillic */
+/* play-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Play';
   font-style: normal;
   font-weight: 400;
-	font-display: swap;
   src: local(''),
-       url('/fonts/montserrat/montserrat-v24-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/montserrat/montserrat-v24-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/fonts/play/play-v17-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/play/play-v17-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* montserrat-700 - latin_cyrillic */
+/* play-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Play';
   font-style: normal;
   font-weight: 700;
-	font-display: swap;
   src: local(''),
-       url('/fonts/montserrat/montserrat-v24-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/montserrat/montserrat-v24-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/fonts/play/play-v17-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/play/play-v17-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

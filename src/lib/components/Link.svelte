@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getSelectedLanguage } from "./translations";
+  import { getSelectedLanguage } from "$lib/modules/translations";
   export let to: string;
   export let external: boolean = false;
   export let disabled = false;
