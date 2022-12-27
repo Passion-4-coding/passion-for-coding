@@ -3,7 +3,7 @@
 </script>
 
 <a href={DISCORD_LINK} class="discord">
-  <img src="/images/discord.svg" alt="discord">
+  <img width="54" height="41" src="/images/discord.svg" alt="discord">
 </a>
 
 <style>

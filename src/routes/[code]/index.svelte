@@ -1,6 +1,5 @@
 <script context="module" lang="ts">
 	import type { Load } from "@sveltejs/kit";
-	import DiscordLink from '$lib/components/DiscordLink.svelte';
 	import { getWidgetData, type IChannel } from "$lib/modules/discord";
 	
 	export const load: Load = async ({ fetch }) => {
@@ -17,6 +16,7 @@
   import { useTranslations } from "$lib/modules/translations";
   import Link from "$lib/components/Link.svelte";
   import PageWrapper from "$lib/components/PageWrapper.svelte";
+	import DiscordLink from '$lib/components/DiscordLink.svelte';
   import Footer from "$lib/components/Footer.svelte";
 
 	export let channel: IChannel;
@@ -26,7 +26,7 @@
 <PageWrapper>
 	<Link to="/about" title="about">
 		<div class="home">
-			<img src="/images/logo-big.svg" alt="Passion for coding">
+			<img width="149" height="142" src="/images/logo-big.svg" alt="Passion for coding">
 			<h1 class="title">Passion for coding</h1>
 			<p class="tip">{t("tip")}</p>
 		</div>

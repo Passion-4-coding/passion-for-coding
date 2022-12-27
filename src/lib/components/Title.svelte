@@ -6,42 +6,40 @@
 
 <style>
   h2 {
-		font-size: 40px;
-		margin: 0px 0px 5px;
+		font-weight: 700;
+		font-size: 54px;
+		line-height: 36px;
+		text-transform: uppercase;
+		margin: 0px 0px 35px;
 	}
-	
 	.line {
-		width: 120px;
-		height: 5px;
-		background-color: var(--color-secondary);
-		margin: 0 0 20px;
+		width: 250px;
+		height: 6px;
+		background: var(--color-secondary);
 	}
-
 	@media(max-width: 992px) {
-		h2 {
-			font-size: 36px;
-		}
+    h2 {
+			font-size: 38px;
+			line-height: 36px;
+			margin: 0px 0px 15px;
+    }
 		.line {
-			width: 110px;
+			width: 150px;
+			height: 4px;
 		}
-	}
-	@media(max-width: 768px) {
+  }
+  @media(max-width: 600px) {
 		h2 {
-			font-size: 28px;
+			position: absolute;
+			top: 15px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
 			text-align: center;
+			font-size: 24px;
 		}
 		.line {
-			width: 90px;
-			margin: 0 auto 20px;
-		}
+			display: none;
+    }
 	}
-	@media(max-width: 600px) {
-		h2 {
-			font-size: var(--font-size-xl);
-		}
-		.line {
-			width: 70px;
-			height: 3px;
-		}
-}
 </style>

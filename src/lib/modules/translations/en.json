@@ -6,6 +6,14 @@
     "roles": "roles",
     "menu": "Menu"
   },
+  "about": {
+    "title": "About",
+    "description": "<p>We are an actively growing community of software developers. <b>Passion for coding</b> was founded for gathering different people to create a good atmosphere for the education process.</p><p>Our community is based in <b>Discord</b>. This platform is a excellent place to build good structure for people communication.</p>",
+    "members": "members",
+    "channels": "channels",
+    "knowledge": "knowledge",
+    "online": "online"
+  },
   "home": {
     "tip": "Press to start...",
     "online": "online"

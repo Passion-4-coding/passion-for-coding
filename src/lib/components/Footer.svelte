@@ -13,11 +13,11 @@
 
 <style>
   footer {
-    height: 80px;
+    padding: 20px 0px;
   }
   .container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
   }
 
