@@ -45,7 +45,7 @@
 
 <Footer>
   <div class="image-container">
-    <img src="/images/about.svg" alt="about">
+    <img width="507" height="230" src="/images/about.svg" alt="about">
   </div>
 </Footer>
 
@@ -112,5 +112,3 @@
     }
 	}
 </style>
-
-<!-- markup (zero or more items) goes here -->

@@ -93,6 +93,7 @@ img {
 @font-face {
   font-family: 'Play';
   font-style: normal;
+	font-display: swap;
   font-weight: 400;
   src: local(''),
        url('/fonts/play/play-v17-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -102,6 +103,7 @@ img {
 @font-face {
   font-family: 'Play';
   font-style: normal;
+	font-display: swap;
   font-weight: 700;
   src: local(''),
        url('/fonts/play/play-v17-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
