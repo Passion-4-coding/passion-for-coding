@@ -70,7 +70,7 @@
 		<meta property="twitter:title" content="Сообщество разработчиков в Дискорде | Passion for coding">
 		<meta property="twitter:description" content="Passion for coding - быстро растущее сообщество в Дискорде. Фриланс, программирование, события, мемы для программистов и много других других активностей.">	
 	{/if}
-	<link rel="alternate" hreflang="ua" href="https://codesire.io/ua" />
+	<link rel="alternate" hreflang="uk" href="https://codesire.io/ua" />
 	<link rel="alternate" hreflang="en" href="https://codesire.io/en" />
 	<link rel="alternate" hreflang="ru" href="https://codesire.io/ru" />
 	<meta property="og:type" content="website">
