@@ -1,26 +1,37 @@
-# create-svelte
+<a href='https://discord.gg/passion-for-coding'>
+    <img src='https://i.ibb.co/hWh9kHM/README-banner.png' alt='Passion for coding logo' width='726'>
+</a>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Passion for coding website repository
 
-## Creating a project
+A repository designed for developing a website for a large community of developers in
+the <a href ='https://discord.gg/passion-for-coding'>Passion For Coding Discord</a>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<!-- Добавить вывод онлайна дс -->
 
-```bash
-# create a new project in the current directory
-npm init svelte
+![Discord](https://img.shields.io/badge/Online-100-333247?labelColor=333247&style=for-the-badge&logo=discord)
 
-# create a new project in my-app
-npm init svelte my-app
-```
+<a href='https://codesire.io'>
+  <h2>
+    Official community website
+  </h2>
+</a>
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Languages and tools:
+
+![SvelteKit](https://img.shields.io/badge/SvelteKit-333247?style=for-the-badge&logo=svelte)
+![TypeScript](https://img.shields.io/badge/TypeScript-333247?style=for-the-badge&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-333247?style=for-the-badge&logo=vite)
+
+## How to run project?
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a
+development server:
 
 ```bash
 npm run dev
-
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
@@ -35,4 +46,15 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[//]: # (## Developers)
+
+[//]: # (- [sFiFty]&#40;https://github.com/sFiFty&#41;)
+
+[//]: # (- [Tirimar]&#40;https://github.com/Tirimar&#41;)
+
+[//]: # ( - [dreycat]&#40;https://github.com/dreycat&#41;)
+
+[//]: # (## License)
+
+<!-- Написать что-то о лицензии -->
+<!-- Написать инструкцию как добавить что-то(линтеры, пулл реквесты и тд) -->
