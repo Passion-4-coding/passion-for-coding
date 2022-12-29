@@ -17,5 +17,17 @@
   "home": {
     "tip": "Press to start...",
     "online": "online"
+  },
+  "roles": {
+    "title": "Roles",
+    "service": "Technical role for bots",
+    "trainee": "Role for all new members",
+    "junior": "Be active for a day",
+    "middle": "Help someone",
+    "senior": "Help regularly",
+    "principal": "Be active and help",
+    "architect": "Do more than Principal :)",
+    "lead": "Role of moderators",
+    "owner": "Role of the Community Founder"
   }
 }
