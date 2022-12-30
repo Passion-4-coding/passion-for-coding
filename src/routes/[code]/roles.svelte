@@ -1,7 +1,8 @@
 <script>
   import Footer from "$lib/components/Footer.svelte";
-  import RoleBlock from "$lib/components/RoleBlock.svelte";
   import Title from "$lib/components/Title.svelte";
+  import {Roles} from "$lib/modules/roles";
+  import RoleBlock from "$lib/modules/roles/RoleBlock.svelte";
   import {useTranslations} from "$lib/modules/translations";
 
   const { t } = useTranslations("roles");
@@ -12,15 +13,9 @@
 <div class="roles container">
   <Title>{t("title")}</Title>
   <div class="roles-content">
-    <RoleBlock title="Service" description={t("service")} imgName="role0000" />
-    <RoleBlock title="Trainee" description={t("trainee")} imgName="role0001" />
-    <RoleBlock title="Junior" description={t("junior")} imgName="role0010" />
-    <RoleBlock title="Middle" description={t("middle")} imgName="role0011" />
-    <RoleBlock title="Senior" description={t("senior")} imgName="role0100" />
-    <RoleBlock title="Principal" description={t("principal")} imgName="role0101" />
-    <RoleBlock title="Architect" description={t("architect")} imgName="role0110" />
-    <RoleBlock title="Lead" description={t("lead")} imgName="role1110" />
-    <RoleBlock title="Owner" description={t("owner")} imgName="role1111" />
+    {#each Roles as Role, index (Role.image)}
+    <RoleBlock name={Role.name} image={Role.image} description={t(Role.descriptionTranslationKey)}/>
+    {/each}
   </div>
 </div>
 

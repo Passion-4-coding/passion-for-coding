@@ -20,14 +20,14 @@
   },
   "roles": {
     "title": "Roles",
-    "service": "Technical role for bots",
-    "trainee": "Role for all new members",
-    "junior": "Be active for a day",
-    "middle": "Help someone",
-    "senior": "Help regularly",
-    "principal": "Be active and help",
-    "architect": "Do more than Principal :)",
-    "lead": "Role of moderators",
-    "owner": "Role of the Community Founder"
+    "serviceDescription": "Technical role for bots",
+    "traineeDescription": "Role for all new members",
+    "juniorDescription": "Be active for a day",
+    "middleDescription": "Help someone",
+    "seniorDescription": "Help regularly",
+    "principalDescription": "Be active and help",
+    "architectDescription": "Do more than Principal :)",
+    "leadDescription": "Role of moderators",
+    "ownerDescription": "Role of the Community Founder"
   }
 }

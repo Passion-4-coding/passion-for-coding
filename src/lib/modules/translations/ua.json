@@ -20,14 +20,14 @@
   },
   "roles": {
     "title": "Ролі",
-    "service": "Технічна роль для ботів",
-    "trainee": "Роль для всіх нових учасників",
-    "junior": "Будь активним один день",
-    "middle": "Допоможи комусь",
-    "senior": "Допомагай регулярно",
-    "principal": "Будь активним U+0456 допомагай",
-    "architect": "Роби більше ніж Principal :)",
-    "lead": "Роль модераторів",
-    "owner": "Роль засновника спільноти"
+    "serviceDescription": "Технічна роль для ботів",
+    "traineeDescription": "Роль для всіх нових учасників",
+    "juniorDescription": "Будь активним один день",
+    "middleDescription": "Допоможи комусь",
+    "seniorDescription": "Допомагай регулярно",
+    "principalDescription": "Будь активним U+0456 допомагай",
+    "architectDescription": "Роби більше ніж Principal :)",
+    "leadDescription": "Роль модераторів",
+    "ownerDescription": "Роль засновника спільноти"
   }
 }
