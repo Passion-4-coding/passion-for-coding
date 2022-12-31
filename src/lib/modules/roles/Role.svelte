@@ -5,7 +5,7 @@
 </script>
 
 <div class="role-block">
-  <img class="role-icon" src={`/images/${imgName}.png`} alt={name + " icon"} />
+  <img width="108" height="108" class="role-icon" src={`/images/${imgName}.png`} alt={name + " icon"} />
   <div class="role-info">
     <span class="role-title">{name}</span>
     <span class="role-description">{description}</span>
