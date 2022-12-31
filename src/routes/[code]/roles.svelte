@@ -1,27 +1,22 @@
 <script>
   import Footer from "$lib/components/Footer.svelte";
   import Title from "$lib/components/Title.svelte";
-  import {Roles} from "$lib/modules/roles";
-  import RoleBlock from "$lib/modules/roles/RoleBlock.svelte";
-  import {useTranslations} from "$lib/modules/translations";
+  import { Role, roles } from "$lib/modules/roles";
+  import { useTranslations  } from "$lib/modules/translations";
 
   const { t } = useTranslations("roles");
 </script>
 
-<!-- layout -->
-
 <div class="roles container">
   <Title>{t("title")}</Title>
   <div class="roles-content">
-    {#each Roles as Role, index (Role.image)}
-    <RoleBlock name={Role.name} image={Role.image} description={t(Role.descriptionTranslationKey)}/>
+    {#each roles as role}
+      <Role name={role.name} imgName={role.image} description={t(role.descriptionTranslationKey)}/>
     {/each}
   </div>
 </div>
 
 <Footer />
-
-<!-- styles -->
 
 <style>
   .roles {
@@ -54,7 +49,6 @@
     }
     .roles-content {
       margin-top: 10px;
-
       grid-template-rows: none;
       grid-template-columns: 1fr;
       grid-gap: 0;
