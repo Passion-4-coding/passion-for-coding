@@ -17,17 +17,5 @@
   "home": {
     "tip": "Натисніть щоб розпочати...",
     "online": "онлайн"
-  },
-  "roles": {
-    "title": "Ролі",
-    "serviceDescription": "Технічна роль для ботів",
-    "traineeDescription": "Роль для всіх нових учасників",
-    "juniorDescription": "Будь активним один день",
-    "middleDescription": "Допоможи комусь",
-    "seniorDescription": "Допомагай регулярно",
-    "principalDescription": "Будь активним U+0456 допомагай",
-    "architectDescription": "Роби більше ніж Principal :)",
-    "leadDescription": "Роль модераторів",
-    "ownerDescription": "Роль засновника спільноти"
   }
 }
