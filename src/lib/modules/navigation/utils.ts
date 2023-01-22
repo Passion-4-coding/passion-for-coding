@@ -10,8 +10,8 @@ export const NAVIGATION_ITEMS: INavigationItem[] = [
     route: "/activities"
   },
   {
-    translationKey: "articles",
-    route: "/articles"
+    translationKey: "rules",
+    route: "/rules"
   },
   {
     translationKey: "roles",

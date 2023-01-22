@@ -2,7 +2,7 @@
   "navigation": {
     "about": "про нас",
     "activities": "ативності",
-    "articles": "статті",
+    "rules": "правила",
     "roles": "ролі",
     "menu": "Меню"
   },
@@ -29,5 +29,14 @@
     "architectDescription": "Роби більше ніж Principal :)",
     "leadDescription": "Роль модераторів",
     "ownerDescription": "Роль засновника спільноти"
+  },
+  "rules": {
+    "title": "Правила",
+    "zeroRuleDescription": "Проявляй люб'язність і чемність до кожного учасника спільноти",
+    "firstRuleDescription": "У всіх каналах дотримуйся IT тематики. На загальні теми можна поспілкуватися в coffee-point",
+    "secondRuleDescription": "Реклама заборонена, навіть платна",
+    "thirdRuleDescription": "Вакансії тільки в каналі vacancies і вона має бути оплачувана. Якщо шукаєш однодумців для свого проєкту, можеш розповісти про нього в projects",
+    "fourthRuleDescription": "Заборонені теми: расизм, сексизм, ейджизм та інші, які можуть зачепити почуття інших",
+    "fifthRuleDescription": "Дотримуйся правил Discord"
   }
 }

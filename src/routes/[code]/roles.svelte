@@ -15,8 +15,7 @@
     {/each}
   </div>
 </div>
-
-<Footer />
+<Footer/>
 
 <style>
   .roles {
