@@ -30,21 +30,23 @@
 <Footer />
 
 <style>
+  .rules :global(b) {
+    color: var(--color-primary);
+  }
   .rules {
     padding: 100px 20px 70px 20px;
   }
   .rules-content {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    height: 100%;
   }
   .rules-block {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 100px;
   }
   .small_policeman {
     display: none;
@@ -53,20 +55,17 @@
     .rules {
       padding: 50px 15px;
     }
-    .rules-block {
-      margin-top: 30px;
-      margin-bottom: 20px;
-    }
     .policeman {
       display: none;
     }
     .small_policeman {
       display: block;
-      padding-bottom: 20px;
+      margin-bottom: 55px;
     }
     .rules-content {
       flex-direction: column;
       height: 100%;
+      margin-top: 30px;
     }
   }
   @media (max-width: 600px) {
@@ -75,11 +74,11 @@
       padding-bottom: 0;
     }
     .small_policeman {
-      padding-bottom: 0;
+      margin-bottom: 0;
     }
-    .rules-block {
-      margin-top: 0;
-      margin-bottom: 20px;
+
+    .rules-content {
+      margin-top: 10px;
     }
   }
 </style>

@@ -2,6 +2,7 @@
   "navigation": {
     "about": "about",
     "activities": "activities",
+    "articles": "articles",
     "rules": "rules",
     "roles": "roles",
     "menu": "Menu"
@@ -33,10 +34,10 @@
   "rules": {
     "title": "Rules",
     "zeroRuleDescription": "Be kind and courteous to everyone in the community",
-    "firstRuleDescription": "Stick to IT topics in all channels. You can talk about general topics in coffee-point",
+    "firstRuleDescription": "Stick to IT topics in all channels. You can talk about general topics in <b>coffee-point</b>",
     "secondRuleDescription": "No advertising, not even paid advertising",
-    "thirdRuleDescription": "The vacancy is only in the vacancies channel and it should be paid. If you are looking for like-minded people for your project, you can tell them about it in projects",
+    "thirdRuleDescription": "The vacancy is only in the <b>vacancies</b> channel and it should be paid. If you are looking for like-minded people for your project, you can tell them about it in <b>projects</b>",
     "fourthRuleDescription": "Forbidden topics: racism, sexism, ageism and others that may affect the feelings of others",
-    "fifthRuleDescription": "Follow Discord rules"
+    "fifthRuleDescription": "Follow <b>Discord</b> rules"
   }
 }

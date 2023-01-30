@@ -45,7 +45,7 @@
     align-items: center;
     flex: 1;
     max-width: 1000px;
-    padding: 0px 100px;
+    padding: 0px 25px;
     margin: 0 auto;
   }
 
@@ -58,7 +58,7 @@
 
   @media(max-width: 992px) {
     .navigation-container {
-      padding: 0px 10px;
+      padding: 0px 5px;
     }
     .logo-container img {
       max-width: 40px;

@@ -5,7 +5,7 @@
 
 <div class="rule">
   <span class="number">[<span class="colored">{number}</span>]</span>
-  <span class="description">{description}</span>
+  <span class="description">{@html description}</span>
 </div>
 
 <style>
@@ -25,6 +25,7 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 32px;
+    margin-top: 3px;
   }
   .colored {
     color: var(--color-primary);
@@ -38,8 +39,9 @@
       line-height: 32px;
     }
     .description {
-      font-size: 20px;
-      line-height: 21px;
+      font-size: 26px;
+      line-height: 26px;
+      margin-top: 4px;
     }
   }
   @media (max-width: 600px) {
@@ -53,6 +55,7 @@
     .description {
       font-size: 20px;
       line-height: 21px;
+      margin-top: 9px;
     }
   }
 </style>

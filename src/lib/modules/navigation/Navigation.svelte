@@ -1,9 +1,9 @@
 <script lang="ts">
   import Link from "$lib/components/Link.svelte";
-  import { page } from '$app/stores';
+  import { page } from "$app/stores";
   import { useTranslations } from "../translations";
   import { NAVIGATION_ITEMS } from "./utils";
-  
+
   const { t } = useTranslations("navigation");
 </script>
 
@@ -14,7 +14,7 @@
       class="nav-item {$page.url.pathname.includes(item.route) && 'active'}"
       title={t(item.translationKey)}
     >
-    &lt;<span class="nav-item-content">{t(item.translationKey)}</span>&gt;
+      &lt;<span class="nav-item-content">{t(item.translationKey)}</span>&gt;
     </Link>
   {/each}
 </nav>
@@ -36,7 +36,7 @@
     color: var(--color-primary);
   }
 
-  @media(max-width: 992px) {
+  @media (max-width: 992px) {
     nav {
       padding: 0 10px;
     }
@@ -45,5 +45,5 @@
       font-size: 24px;
       line-height: 18px;
     }
-	}
+  }
 </style>
