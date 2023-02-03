@@ -1,4 +1,5 @@
 <script context="module" lang="ts">
+  import ActivityTabs from "$lib/modules/activities/ActivityTabs.svelte";
   import type { Load } from "@sveltejs/kit";
 
   export const load: Load = ({ params }) => {
@@ -10,18 +11,13 @@
   }
 </script>
 
-<div class="content">
-  Page is under development
+<div class="activities">
+  <ActivityTabs />
 </div>
 
 <style>
-  .content {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 56px;
-    line-height: 34px;
+  .activities {
+    padding-top: 40px;
   }
 </style>
 
