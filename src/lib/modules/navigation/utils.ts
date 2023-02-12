@@ -14,6 +14,10 @@ export const NAVIGATION_ITEMS: INavigationItem[] = [
     route: "/articles"
   },
   {
+    translationKey: "rules",
+    route: "/rules"
+  },
+  {
     translationKey: "roles",
     route: "/roles"
   },
