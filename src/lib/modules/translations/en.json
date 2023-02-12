@@ -31,6 +31,18 @@
     "leadDescription": "Role of moderators",
     "ownerDescription": "Role of the Community Founder"
   },
+  "activities": {
+    "communityTitle": "community",
+    "vacanciesTitle": "vacancies",
+    "questionsTitle": "questions",
+    "resourcesTitle": "resources",
+    "botsTitle": "bots",
+    "communityDescription": "Our discord maintains a warm, friendly atmosphere, so if you suddenly get bored, just write to <b>#coffee-point</b>. And if you want to talk about programming, then <b>#code-channel</b>.",
+    "vacanciesDescription": "The server regularly posts vacancies in the <b>#vacancies</b> channel, and there are also many people who are happy to respond to them. And if you're looking for like-minded people to participate in a project, post it in <b>#projects</b>.",
+    "questionsDescription": "We also have a <b>#questions</b> channel, where you can ask questions related to development or a related topic. Read the rules before you ask, and remember that no one will write your code for you.",
+    "resourcesDescription": "The <b>#resources</b> and <b>#library</b> channels are for posting posts, repositories, articles, and books that might be useful to a developer. You can also post your own post or article there. <p>If you want a laugh, we have the <b>#funny</b> channel.</p>",
+    "botsDescription": "In our <b>#bot-area</b> channel you can interact with a different bots of our community. We have our own bot - passion-bot which has different commands to play with chatGPT and also you can work with bot like MidJourney to draw some beautiful images. Enjoy!"
+  },
   "rules": {
     "title": "Rules",
     "zeroRuleDescription": "Be kind and courteous to everyone in the community",

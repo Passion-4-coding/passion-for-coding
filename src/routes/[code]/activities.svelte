@@ -1,4 +1,6 @@
 <script context="module" lang="ts">
+  import Footer from "$lib/components/Footer.svelte";
+  import ActivityTabs from "$lib/modules/activities/ActivityTabs.svelte";
   import type { Load } from "@sveltejs/kit";
 
   export const load: Load = ({ params }) => {
@@ -10,18 +12,25 @@
   }
 </script>
 
-<div class="content">
-  Page is under development
+<div class="activities container">
+  <ActivityTabs />
+  <Footer>
+    <div class="image-container">
+      <img width="507" height="230" src="/images/activities.svg" alt="activities">
+    </div>
+  </Footer>
 </div>
 
 <style>
-  .content {
-    height: 100%;
+  .activities {
+    padding-top: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 56px;
-    line-height: 34px;
+    flex-direction: column;
+  }
+  @media(max-width: 768px) {
+    .image-container {
+      display: none;
+    }
   }
 </style>
 
