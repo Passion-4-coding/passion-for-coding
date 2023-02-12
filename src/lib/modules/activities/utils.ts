@@ -4,7 +4,8 @@ export const activityTabs: string[] = [
   "community",
   "questions",
   "vacancies",
-  "resources"
+  "resources",
+  "bots"
 ];
 
 export const activityItems: IActivityItem[] = [
@@ -12,4 +13,5 @@ export const activityItems: IActivityItem[] = [
   { name: "questions", titleTranslationKey: "questionsTitle", descriptionTranslationKey: "questionsDescription" },
   { name: "vacancies", titleTranslationKey: "vacanciesTitle", descriptionTranslationKey: "vacanciesDescription" },
   { name: "resources", titleTranslationKey: "resourcesTitle", descriptionTranslationKey: "resourcesDescription" },
+  { name: "bots", titleTranslationKey: "botsTitle", descriptionTranslationKey: "botsDescription" },
 ];
