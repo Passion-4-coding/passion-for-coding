@@ -6,6 +6,12 @@
 
 </script>
 
+<svelte:head>
+	<title>{t("seoTitle")}</title>
+  <meta name="description" content={t("seoDescription")}>
+  <meta name="keywords" content={t("seoKeywords")}>
+</svelte:head>
+
 <div class="container">
   <div class="article">
     <h1 class="title">{t("title")}</h1>
