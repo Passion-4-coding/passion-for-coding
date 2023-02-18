@@ -79,6 +79,8 @@
     "size": "size",
     "no": "no",
     "yes": "yes",
+    "answerType": "answer type",
+    "answerTypeDescription": "Choose how you want to receive an answer. Reply - default answer in the chat. Private - private message.",
     "translateEn": "Translate from English to Russian",
     "translateRu": "Translate from Russian to English",
     "imagine": "Provide your image description",

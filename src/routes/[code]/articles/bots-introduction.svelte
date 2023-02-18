@@ -34,7 +34,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="bordered">
+          <tr>
             <td class="no-wrap">/gpt</td>
             <td class="no-wrap">&lt;{t("question")}></td>
             <td>{t("gptDescription")}</td>
@@ -42,11 +42,25 @@
             <td>-</td>
           </tr>
           <tr class="bordered">
+            <td></td>
+            <td class="no-wrap">&lt;{t("answerType")}></td>
+            <td>{t("answerTypeDescription")}</td>
+            <td>{t("no")}</td>
+            <td>reply</td>
+          </tr>
+          <tr>
             <td class="no-wrap">/deep-gpt</td>
             <td class="no-wrap">&lt;{t("question")}></td>
             <td>{t("deepGptDescription")}</td>
             <td>{t("yes")}</td>
             <td>-</td>
+          </tr>
+          <tr class="bordered">
+            <td></td>
+            <td class="no-wrap">&lt;{t("answerType")}></td>
+            <td>{t("answerTypeDescription")}</td>
+            <td>{t("no")}</td>
+            <td>reply</td>
           </tr>
           <tr>
             <td class="no-wrap">/image</td>

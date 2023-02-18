@@ -28,7 +28,7 @@
     <div class="description">{@html t("description")}</div>
     <div class="stats">
       <div class="stat-item">
-        &#123;<span class="number">900+</span> {t("members")}&#125;
+        &#123;<span class="number">1100+</span> {t("members")}&#125;
       </div>
       <div class="stat-item">
         &#123;<span class="number">20+</span> {t("channels")}&#125;
