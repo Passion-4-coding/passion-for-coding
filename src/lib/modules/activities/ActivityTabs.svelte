@@ -1,17 +1,19 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import Footer from '$lib/components/Footer.svelte';
   import Link from '$lib/components/Link.svelte';
   import { fade } from 'svelte/transition';
   import { useTranslations } from '../translations';
+  import type { EActivityTabs } from './types';
+
+  export let tab: EActivityTabs;
   import { activityTabs, activityItems } from "./utils";
 
   let activeItemKey = $page.url.searchParams.get("tab") || "community";
-  let activeItem = activityItems.find(item => item.name === activeItemKey) || activityItems[0];
+  let activeItem = activityItems.find(item => item.name === tab) || activityItems[0];
 
   page.subscribe(route => {
     activeItemKey = $page.url.searchParams.get("tab") || "community";
-    activeItem = activityItems.find(item => item.name === activeItemKey) || activityItems[0];
+    activeItem = activityItems.find(item => item.name === tab) || activityItems[0];
   })
 
   const { t } = useTranslations("activities");

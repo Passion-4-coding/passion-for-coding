@@ -11,7 +11,7 @@ the <a href ='https://discord.gg/passion-for-coding'>Passion For Coding Discord<
 
 ![Discord](https://img.shields.io/badge/Online-100-333247?labelColor=333247&style=for-the-badge&logo=discord)
 
-<a href='https://codesire.io'>
+<a href='https://pfc.dev'>
   <h2>
     Official community website
   </h2>
@@ -46,15 +46,11 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-[//]: # (## Developers)
-
-[//]: # (- [sFiFty]&#40;https://github.com/sFiFty&#41;)
-
-[//]: # (- [Tirimar]&#40;https://github.com/Tirimar&#41;)
-
-[//]: # ( - [dreycat]&#40;https://github.com/dreycat&#41;)
-
-[//]: # (## License)
+[//]: # "## Developers"
+[//]: # "- [sFiFty](https://github.com/sFiFty)"
+[//]: # "- [Tirimar](https://github.com/Tirimar)"
+[//]: # " - [dreycat](https://github.com/dreycat)"
+[//]: # "## License"
 
 <!-- Написать что-то о лицензии -->
 <!-- Написать инструкцию как добавить что-то(линтеры, пулл реквесты и тд) -->

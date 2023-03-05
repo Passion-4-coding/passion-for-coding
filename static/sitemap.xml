@@ -4,22 +4,188 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>https://codesire.io/en</loc>
-  <lastmod>2022-06-19T14:37:50+00:00</lastmod>
+  <loc>https://pfc.dev/en</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://codesire.io/ua</loc>
-  <lastmod>2022-06-19T14:37:50+00:00</lastmod>
+  <loc>https://pfc.dev/en/about</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codesire.io/ru</loc>
-  <lastmod>2022-06-19T14:37:50+00:00</lastmod>
+  <loc>https://pfc.dev/en/activities</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/articles</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/rules</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/roles</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/about</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/about</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/activities?tab=community</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/activities?tab=questions</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/activities?tab=vacancies</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/activities?tab=resources</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/activities?tab=bots</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/activities</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/activities</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/en/articles/bots-introduction</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/articles</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/articles</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/rules</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/rules</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/roles</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/roles</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/activities?tab=community</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/activities?tab=questions</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/activities?tab=vacancies</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/activities?tab=resources</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/activities?tab=bots</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/activities?tab=community</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/activities?tab=questions</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/activities?tab=vacancies</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/activities?tab=resources</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/activities?tab=bots</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ua/articles/bots-introduction</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pfc.dev/ru/articles/bots-introduction</loc>
+  <lastmod>2023-03-05T19:34:54+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 

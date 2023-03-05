@@ -2,26 +2,47 @@
 	import type { Load } from "@sveltejs/kit";
 	import { getWidgetData, type IChannel } from "$lib/modules/discord";
 	
-	export const load: Load = async ({ fetch }) => {
+	export const load: Load = async ({ fetch, params }) => {
 		const channel = await getWidgetData(fetch);
+		const code = params.code as Languages;
 		return {
 			props: {
-				channel
+				channel,
+				lang: code
 			}
 		}
 	}
 </script>
 
 <script lang="ts">
-  import { useTranslations } from "$lib/modules/translations";
+  import { useTranslations, type Languages } from "$lib/modules/translations";
   import Link from "$lib/components/Link.svelte";
   import PageWrapper from "$lib/components/PageWrapper.svelte";
 	import DiscordLink from '$lib/components/DiscordLink.svelte';
   import Footer from "$lib/components/Footer.svelte";
 
 	export let channel: IChannel;
+	export let lang: Languages;
+	
 	const { t } = useTranslations("home");
+	const { t: tl } = useTranslations("layout");
 </script>
+
+<svelte:head>
+  <title>{tl("title")}</title>
+  <meta name="title" content={tl("title")}>
+  <meta name="description" content={tl("description")}>
+  <meta name="keywords" content={tl("keywords")}>
+  <meta property="og:title" content={tl("title")}>
+  <meta property="og:description" content={tl("description")}>
+  <meta property="twitter:title" content={tl("title")}>
+  <meta property="twitter:description" content={tl("description")}>	
+	<meta property="og:url" content="https://pfc.dev/{lang}">
+  <meta property="twitter:url" content="https://pfc.dev/{lang}">
+  <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua" />
+  <link rel="alternate" hreflang="en" href="https://pfc.dev/en" />
+  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru" />
+</svelte:head>
 
 <PageWrapper>
 	<Link to="/about" title="about">

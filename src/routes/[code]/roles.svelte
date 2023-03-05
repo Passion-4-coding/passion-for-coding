@@ -1,11 +1,44 @@
-<script>
+<script context="module" lang="ts">
+	import type { Load } from '@sveltejs/kit';
+	import type { Languages } from '$lib/modules/translations';
+
+	export const load: Load = async ({ params }) => {
+		const code = params.code as Languages;
+		return {
+			props: {
+				lang: code,
+			}
+		}
+	}
+</script>
+
+<script lang="ts">
   import Footer from "$lib/components/Footer.svelte";
   import Title from "$lib/components/Title.svelte";
   import { Role, roles } from "$lib/modules/roles";
   import { useTranslations  } from "$lib/modules/translations";
 
+  export let lang: Languages;
+
   const { t } = useTranslations("roles");
+  const { t: tl } = useTranslations("layout");
 </script>
+
+<svelte:head>
+  <title>{tl("title")}</title>
+  <meta name="title" content={tl("title")}>
+  <meta name="description" content={tl("description")}>
+  <meta name="keywords" content={tl("keywords")}>
+  <meta property="og:title" content={tl("title")}>
+  <meta property="og:description" content={tl("description")}>
+  <meta property="twitter:title" content={tl("title")}>
+  <meta property="twitter:description" content={tl("description")}>
+  <meta property="og:url" content="https://pfc.dev/{lang}/roles">
+  <meta property="twitter:url" content="https://pfc.dev/{lang}/roles">
+  <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/roles" />
+  <link rel="alternate" hreflang="en" href="https://pfc.dev/en/roles" />
+  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/roles" />
+</svelte:head>
 
 <div class="roles container">
   <Title>{t("title")}</Title>

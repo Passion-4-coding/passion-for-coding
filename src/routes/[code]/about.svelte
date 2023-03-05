@@ -2,11 +2,13 @@
 	import type { Load } from "@sveltejs/kit";
 	import { getWidgetData, type IChannel } from "$lib/modules/discord";
 	
-	export const load: Load = async ({ fetch }) => {
+	export const load: Load = async ({ fetch, params }) => {
 		const channel = await getWidgetData(fetch);
+    const lang = params.code as Languages;
 		return {
 			props: {
-				channel
+				channel,
+        lang
 			}
 		}
 	}
@@ -15,12 +17,30 @@
 <script lang="ts">
   import Footer from "$lib/components/Footer.svelte";
   import Title from "$lib/components/Title.svelte";
-  import { useTranslations } from "$lib/modules/translations";
+  import { useTranslations, type Languages } from "$lib/modules/translations";
 
   export let channel: IChannel;
+  export let lang: Languages;
 
-  const { t } = useTranslations("about")
+  const { t } = useTranslations("about");
+  const { t: tl } = useTranslations("layout");
 </script>
+
+<svelte:head>
+  <title>{tl("title")}</title>
+  <meta name="title" content={tl("title")}>
+  <meta name="description" content={tl("description")}>
+  <meta name="keywords" content={tl("keywords")}>
+  <meta property="og:title" content={tl("title")}>
+  <meta property="og:description" content={tl("description")}>
+  <meta property="twitter:title" content={tl("title")}>
+  <meta property="twitter:description" content={tl("description")}>	
+  <meta property="og:url" content="https://pfc.dev/{lang}/about">
+  <meta property="twitter:url" content="https://pfc.dev/{lang}/about">
+  <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/about" />
+  <link rel="alternate" hreflang="en" href="https://pfc.dev/en/about" />
+  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/about" />
+</svelte:head>
 
 <div class="about container">
   <Title>{t("title")}</Title>
@@ -28,7 +48,7 @@
     <div class="description">{@html t("description")}</div>
     <div class="stats">
       <div class="stat-item">
-        &#123;<span class="number">1100+</span> {t("members")}&#125;
+        &#123;<span class="number">1200+</span> {t("members")}&#125;
       </div>
       <div class="stat-item">
         &#123;<span class="number">20+</span> {t("channels")}&#125;

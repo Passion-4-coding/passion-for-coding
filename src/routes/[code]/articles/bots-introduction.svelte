@@ -1,15 +1,40 @@
+<script context="module" lang="ts">
+	import type { Load } from '@sveltejs/kit';
+	import type { Languages } from '$lib/modules/translations';
+
+	export const load: Load = async ({ params, fetch }) => {
+		const code = params.code as Languages;
+		return {
+			props: {
+				lang: code,
+			}
+		}
+	}
+</script>
+
 <script lang="ts">
   import Footer from "$lib/components/Footer.svelte";
   import { useTranslations } from "$lib/modules/translations";
 
   const { t } = useTranslations("botsArticle");
+  export let lang: string;
 
 </script>
 
 <svelte:head>
-	<title>{t("seoTitle")}</title>
+  <title>{t("seoTitle")}</title>
+  <meta name="title" content={t("seoTitle")}>
   <meta name="description" content={t("seoDescription")}>
   <meta name="keywords" content={t("seoKeywords")}>
+  <meta property="og:url" content="https://pfc.dev/{lang}/articles/bots-introduction">
+  <meta property="og:title" content={t("seoTitle")}>
+  <meta property="og:description" content={t("seoDescription")}>
+  <meta property="twitter:url" content="https://pfc.dev/{lang}/articles/bots-introduction">
+  <meta property="twitter:title" content={t("title")}>
+  <meta property="twitter:description" content={t("seoDescription")}>	
+  <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/rules" />
+  <link rel="alternate" hreflang="en" href="https://pfc.dev/en/rules" />
+  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/rules" />
 </svelte:head>
 
 <div class="container">
