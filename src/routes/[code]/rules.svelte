@@ -35,6 +35,7 @@
   <meta property="twitter:url" content={`https://pfc.dev/${lang}/rules`}>
   <meta property="twitter:title" content={tl("title")}>
   <meta property="twitter:description" content={tl("description")}>	
+  <link rel=“canonical” href="https://pfc.dev/{lang}/rules" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/rules" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/rules" />
   <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/rules" />

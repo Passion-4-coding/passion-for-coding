@@ -23,19 +23,19 @@
   export let lang: Languages;
 
   const { t } = useTranslations("about");
-  const { t: tl } = useTranslations("layout");
 </script>
 
 <svelte:head>
-  <title>{tl("title")}</title>
-  <meta name="title" content={tl("title")}>
-  <meta name="description" content={tl("description")}>
-  <meta name="keywords" content={tl("keywords")}>
-  <meta property="og:title" content={tl("title")}>
-  <meta property="og:description" content={tl("description")}>
-  <meta property="twitter:title" content={tl("title")}>
-  <meta property="twitter:description" content={tl("description")}>	
+  <title>{t("seo-title")}</title>
+  <meta name="title" content={t("seo-title")}>
+  <meta name="description" content={t("seo-description")}>
+  <meta name="keywords" content={t("seo-keywords")}>
+  <meta property="og:title" content={t("seo-title")}>
+  <meta property="og:description" content={t("seo-description")}>
+  <meta property="twitter:title" content={t("seo-title")}>
+  <meta property="twitter:description" content={t("seo-description")}>	
   <meta property="og:url" content="https://pfc.dev/{lang}/about">
+  <link rel=“canonical” href="https://pfc.dev/{lang}/about" />
   <meta property="twitter:url" content="https://pfc.dev/{lang}/about">
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/about" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/about" />

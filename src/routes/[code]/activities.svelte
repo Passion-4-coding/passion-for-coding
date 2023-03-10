@@ -33,6 +33,7 @@
   <meta property="twitter:description" content={t(`meta-description-${tab}`)}>
   <meta property="og:url" content="https://pfc.dev/{lang}/activities?tab=${tab}">
   <meta property="twitter:url" content="https://pfc.dev/{lang}/activities?tab=${tab}">
+  <link rel=“canonical” href="https://pfc.dev/{lang}/activities?tab=${tab}" />
   <link rel="alternate" hreflang="uk" href={`https://pfc.dev/ua/activities?tab=${tab}`} />
   <link rel="alternate" hreflang="en" href={`https://pfc.dev/en/activities?tab=${tab}`} />
   <link rel="alternate" hreflang="ru" href={`https://pfc.dev/ru/activities?tab=${tab}`} />

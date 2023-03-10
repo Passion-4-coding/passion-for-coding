@@ -32,6 +32,7 @@
   <meta property="twitter:url" content="https://pfc.dev/{lang}/articles/bots-introduction">
   <meta property="twitter:title" content={t("title")}>
   <meta property="twitter:description" content={t("seoDescription")}>	
+  <link rel=“canonical” href="https://pfc.dev/{lang}/articles/bots-introduction" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/rules" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/rules" />
   <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/rules" />

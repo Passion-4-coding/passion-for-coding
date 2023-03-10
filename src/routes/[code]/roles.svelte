@@ -34,6 +34,7 @@
   <meta property="twitter:title" content={tl("title")}>
   <meta property="twitter:description" content={tl("description")}>
   <meta property="og:url" content="https://pfc.dev/{lang}/roles">
+  <link rel=“canonical” href="https://pfc.dev/{lang}/roles" />
   <meta property="twitter:url" content="https://pfc.dev/{lang}/roles">
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/roles" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/roles" />

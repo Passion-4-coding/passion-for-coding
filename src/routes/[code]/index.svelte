@@ -39,6 +39,7 @@
   <meta property="twitter:description" content={tl("description")}>	
 	<meta property="og:url" content="https://pfc.dev/{lang}">
   <meta property="twitter:url" content="https://pfc.dev/{lang}">
+	<link rel=“canonical” href="https://pfc.dev/{lang}" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en" />
   <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru" />
