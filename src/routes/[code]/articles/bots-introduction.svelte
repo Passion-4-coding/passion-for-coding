@@ -109,20 +109,6 @@
             <td>{t("no")}</td>
             <td>1</td>
           </tr>
-          <tr class="bordered">
-            <td class="no-wrap">/translate-en</td>
-            <td class="no-wrap">&lt;{t("text")}></td>
-            <td>{t("translateEn")}</td>
-            <td>{t("yes")}</td>
-            <td>-</td>
-          </tr>
-          <tr class="bordered">
-            <td class="no-wrap">/translate-ru</td>
-            <td class="no-wrap">&lt;{t("text")}></td>
-            <td>{t("translateRu")}</td>
-            <td>{t("yes")}</td>
-            <td>-</td>
-          </tr>
         </tbody>
       </table>
       <p>{@html t("paragraph4")}</p>

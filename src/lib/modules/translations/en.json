@@ -105,8 +105,6 @@
     "yes": "yes",
     "answerType": "answer type",
     "answerTypeDescription": "Choose how you want to receive an answer. Reply - default answer in the chat. Private - private message.",
-    "translateEn": "Translate from English to Russian",
-    "translateRu": "Translate from Russian to English",
     "imagine": "Provide your image description",
     "paragraph3": "MidJourney bot commands list:",
     "paragraph4": "Honestly we are not satisfied with /image command so we have added another bot <b>MidJourney</b> which working with images generation much better.",
