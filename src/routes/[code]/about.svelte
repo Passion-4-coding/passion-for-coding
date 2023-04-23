@@ -1,14 +1,16 @@
 <script context="module" lang="ts">
 	import type { Load } from "@sveltejs/kit";
-	import { getWidgetData, type IChannel } from "$lib/modules/discord";
+	import { getWidgetData, getUserCount, type IChannel } from "$lib/modules/discord";
 	
 	export const load: Load = async ({ fetch, params }) => {
 		const channel = await getWidgetData(fetch);
+    const count = await getUserCount(fetch);
     const lang = params.code as Languages;
 		return {
 			props: {
 				channel,
-        lang
+        lang,
+        count
 			}
 		}
 	}
@@ -21,6 +23,7 @@
 
   export let channel: IChannel;
   export let lang: Languages;
+  export let count: string;
 
   const { t } = useTranslations("about");
 </script>
@@ -48,7 +51,7 @@
     <div class="description">{@html t("description")}</div>
     <div class="stats">
       <div class="stat-item">
-        &#123;<span class="number">1500+</span> {t("members")}&#125;
+        &#123;<span class="number">{count}</span> {t("members")}&#125;
       </div>
       <div class="stat-item">
         &#123;<span class="number">20+</span> {t("channels")}&#125;
