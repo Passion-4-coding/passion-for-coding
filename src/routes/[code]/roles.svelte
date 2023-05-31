@@ -43,6 +43,9 @@
 
 <div class="roles container">
   <Title>{t("title")}</Title>
+  <div class="description">
+    {t("description")}
+  </div>
   <div class="roles-content">
     {#each roles as role}
       <Role name={role.name} imgName={role.image} description={t(role.descriptionTranslationKey)}/>
@@ -58,10 +61,15 @@
     flex-direction: column;
     padding: 100px 20px 70px 20px;
   }
+  .description {
+    padding: 40px 0px;
+    font-size: 30px;
+    line-height: 34px;
+  }
   .roles-content {
     margin-top: 50px;
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px 40px;

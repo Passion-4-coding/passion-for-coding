@@ -30,15 +30,14 @@
   },
   "roles": {
     "title": "Roles",
-    "serviceDescription": "Technical role for bots",
     "traineeDescription": "Role for all new members",
-    "juniorDescription": "Be active for a day",
-    "middleDescription": "Help someone",
-    "seniorDescription": "Help regularly",
-    "principalDescription": "Be active and help",
-    "architectDescription": "Do more than Principal :)",
+    "juniorDescription": "Earn 50 karma points",
+    "middleDescription": "Earn 100 karma points",
+    "seniorDescription": "Earn 1000 karma points",
+    "principalDescription": "Earn 5000 karma points",
+    "architectDescription": "Can be given only by the owner for the contribution to the server development",
     "leadDescription": "Role of moderators",
-    "ownerDescription": "Role of the Community Founder"
+    "description": "Our Discord server has various roles that help organize communication between members of the community. Language roles allow you to find like-minded people and communicate in your own language. Technology roles help to unite specialists in one group and talk about topics of interest. We also have a system of rewards in the form of karma point roles, which allows you to show your contribution to the community. Communicate, help others and earn karma."
   },
   "activities": {
     "communityTitle": "community",
