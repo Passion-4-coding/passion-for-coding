@@ -32,7 +32,7 @@
     "title": "Roles",
     "traineeDescription": "Role for all new members",
     "juniorDescription": "Earn 50 karma points",
-    "middleDescription": "Earn 100 karma points",
+    "middleDescription": "Earn 500 karma points",
     "seniorDescription": "Earn 1000 karma points",
     "principalDescription": "Earn 5000 karma points",
     "architectDescription": "Can be given only by the owner for the contribution to the server development",
