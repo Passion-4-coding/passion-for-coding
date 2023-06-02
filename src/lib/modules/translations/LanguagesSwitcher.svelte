@@ -13,19 +13,13 @@
 <ul class="languages">
   <li class="language">
     [
-    <a href={generateLink('ua')} class:active={currentLang === 'ua'}>
-      ua,
-    </a>
+    <a href={generateLink('ua')} class:active={currentLang === 'ua'}>ua</a>,&nbsp;
   </li>
   <li class="language">
-    <a href={generateLink('ru')} class:active={currentLang === 'ru'}>
-      ru,
-    </a>
+    <a href={generateLink('ru')} class:active={currentLang === 'ru'}>ru</a>,&nbsp;
   </li>
   <li class="language">
-    <a href={generateLink('en')} class:active={currentLang === 'en'}>
-      en
-    </a>
+    <a href={generateLink('en')} class:active={currentLang === 'en'}>en</a>
     ]
   </li>
 </ul>
@@ -43,17 +37,19 @@
   .language {
     font-size: 38px;
     line-height: 32px;
-    margin: 0 5px;
   }
   .language .active {
     color: 700;
     color: var(--color-primary);
   }
 
+  .language a:hover {
+    color: var(--color-primary);
+  }
+
   @media(max-width: 600px) {
     .language {
       font-size: 28px;
-      margin: 0 2px;
     }
 	}
 </style>

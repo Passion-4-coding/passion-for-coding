@@ -14,11 +14,19 @@
       <div>[ <span class="text">{t("botsUpdateDate")}</span> ]</div>
     </div>
   </div>
+  <div class="article-short">
+    <h1 class="title">{t("improvementsTitle")}</h1>
+    <p class="description">{t("improvementsShort")}</p>
+    <div class="attributes">
+      <Link to="/articles/improvements"><span class="text">{t("readMore")}</span> ></Link>
+      <div>[ <span class="text">{t("improvementsDate")}</span> ]</div>
+    </div>
+  </div>
 </div>
 
 <style>
   .articles {
-    padding-top: 50px;
+    padding: 50px 0px 300px;
     flex: 1;
   }
   .title {
@@ -29,6 +37,9 @@
   }
   .text {
     color: var(--color-primary);
+  }
+  .article-short {
+    padding-bottom: 40px;
   }
   .attributes {
     display: flex;

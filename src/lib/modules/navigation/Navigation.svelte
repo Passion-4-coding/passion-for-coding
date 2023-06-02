@@ -32,6 +32,10 @@
     line-height: 32px;
   }
 
+  nav :global(.nav-item:hover) {
+    color: var(--color-primary);
+  }
+
   nav :global(.nav-item.active .nav-item-content) {
     color: var(--color-primary);
   }

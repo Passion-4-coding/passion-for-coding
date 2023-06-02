@@ -113,6 +113,10 @@
     color: var(--color-primary);
   }
 
+  nav .link-container :global(.nav-item:hover) {
+    color: var(--color-primary);
+  }
+
   .line {
     display: block;
     height: 5px;

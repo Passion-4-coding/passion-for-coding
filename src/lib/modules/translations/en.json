@@ -79,7 +79,10 @@
     "botsUpdateTitle": "Introducing AI Bots to the our community.",
     "botsUpdateShort": "Meet passion-bot who works with ChatGPT and Deepl to help you find answers to your questions. Work with MidJourney to create beautiful illustrations.",
     "botsUpdateDate": "14.02.2023",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "improvementsTitle": "Member ideas are the best way to the community growth",
+    "improvementsShort": "Greetings, dear reader! Today I want to talk to you about the importance of developing our Passion for coding community in Discord, which is a meeting place for people with a common passion for coding. We're constantly working to improve and it's important to hear the opinions of our members, so I encourage you to leave your thoughts and suggestions on how we can further improve our community.",
+    "improvementsDate": "2.06.2023"
   },
   "botsArticle": {
     "title": "Introducing AI Bots to the our community.",
@@ -111,5 +114,16 @@
     "seoTitle": "Passion for coding AI Bots: What Are They and How Can They Help You?",
     "seoDescription": "Bots are a revolutionary new way to interact with users on the internet. Learn what bots are, how they work, and how they can help you in our community Passion for coding",
     "seoKeywords": "bots,bot,chatbot,AI,artificial intelligence,automation,automated bots,bot technology,machine learning,chatbot technology,bot development,bot programming,bot design,bot framework"
+  },
+  "improvementsArticle": {
+    "title": "Member ideas are the best way to the community growth",
+    "paragraph1": "Greetings, dear reader! Today I want to talk to you about the importance of developing our <b>Passion for coding</b> community in Discord, which is a meeting place for people with a common passion for coding. We're constantly working to improve and it's important to hear the opinions of our members, so I encourage you to leave your thoughts and suggestions on how we can further improve our community.",
+    "paragraph2": "We all know that <b>programming is creativity</b>. But even in creativity it is important to be surrounded by people, who help you develop and energize you. <b>Passion for coding</b> community members are exactly those people, who can offer advice, help solve technical problems or share their experience.",
+    "paragraph3": "However, we can always become <b>even better</b>. Maybe you've noticed that the community lacks some functionality or ability to communicate? Maybe you'd like to share your knowledge or experience, but don't know how to do it? We're open to all of your <b>ideas and suggestions</b>, as they can all be helpful to our common goal.",
+    "paragraph4": "We promise to take into account and consider <b>all suggestions from our members</b>. Moreover, we are ready to make appropriate changes to our platform to ensure more <b>comfortable and productive communication</b> in the community.",
+    "paragraph5": "You can always leave your idea on the <b>#improvements</b> channel. Feel free to share your opinion! Only together can we make our community even more <b>successful and mutually supportive</b>.",
+    "seoTitle": "Member ideas are the best way to the community growth Passion for Coding",
+    "seoDescription": "Join Passion for Coding, a community of coders on Discord. Learn more about our passion for coding and influence the development of our community. Leave your thoughts and suggestions in our #improvements channel",
+    "seoKeywords": "Passion for coding, Discord, programming community, community development, developer communication, IT communication, sharing experiences, technical problems, platform improvement, feedback and suggestions, programming and creativity, skills development"
   }
 }
