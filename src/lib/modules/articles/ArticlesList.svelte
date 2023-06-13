@@ -22,7 +22,16 @@
       <div>[ <span class="text">{t("improvementsDate")}</span> ]</div>
     </div>
   </div>
+  <div class="article-short">
+    <h1 class="title">{t("vacanciesTitle")}</h1>
+    <p class="description">{t("vacanciesShort")}</p>
+    <div class="attributes">
+      <Link to="/articles/vacancies"><span class="text">{t("readMore")}</span> ></Link>
+      <div>[ <span class="text">{t("vacanciesDate")}</span> ]</div>
+    </div>
+  </div>
 </div>
+
 
 <style>
   .articles {
