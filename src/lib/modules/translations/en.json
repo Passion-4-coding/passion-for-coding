@@ -82,7 +82,10 @@
     "readMore": "Read more",
     "improvementsTitle": "Member ideas are the best way to the community growth",
     "improvementsShort": "Greetings, dear reader! Today I want to talk to you about the importance of developing our Passion for coding community in Discord, which is a meeting place for people with a common passion for coding. We're constantly working to improve and it's important to hear the opinions of our members, so I encourage you to leave your thoughts and suggestions on how we can further improve our community.",
-    "improvementsDate": "2.06.2023"
+    "improvementsDate": "2.06.2023",
+    "vacanciesTitle": "Explore Exciting Job Opportunities in the Coding Industry",
+    "vacanciesShort": "Are you looking for new opportunities to apply your coding skills and expand your horizons?\n Look no further! Passion for Coding is thrilled to present the #vacancies channel, where you can find a wide range of job openings in the coding industry.",
+    "vacanciesDate": "13.06.2023"
   },
   "botsArticle": {
     "title": "Introducing AI Bots to the our community.",
@@ -125,5 +128,16 @@
     "seoTitle": "Member ideas are the best way to the community growth Passion for Coding",
     "seoDescription": "Join Passion for Coding, a community of coders on Discord. Learn more about our passion for coding and influence the development of our community. Leave your thoughts and suggestions in our #improvements channel",
     "seoKeywords": "Passion for coding, Discord, programming community, community development, developer communication, IT communication, sharing experiences, technical problems, platform improvement, feedback and suggestions, programming and creativity, skills development"
+  },
+  "vacanciesArticle": {
+    "title": "Explore Exciting Job Opportunities in the Coding Industry",
+    "paragraph1": "Greetings, dear reader! Are you looking for new opportunities to apply your coding skills and expand your horizons? Look no further! <b>Passion for Coding</b> is thrilled to present the <b>#vacancies</b> channel, where you can find a wide range of job openings in the coding industry.<br><br>",
+    "paragraph2": "We understand that programming is not just a hobby but a <b>passion</b> for many. That's why our community aims to connect talented coders <b>like you</b> with exciting career opportunities. Whether you are a seasoned professional or just starting your coding journey, you can find opportunities that match your expertise and interests.<br><br>",
+    "paragraph3": "The <b>#vacancies</b> channel serves as a central hub for employers to post their job openings. You'll find a wide range of positions including front-end development, back-end development, full-stack development, UI/UX design, software engineering and more.",
+    "paragraph4": "We believe in the power of community collaboration, so we encourage our members to share their own job opportunities. If you or your organisation has a job opening that would be of interest to other community members, feel free to post it in the <b>#vacancies</b> channel. Together we can help each other succeed in the coding industry :)<br><br>",
+    "paragraph5": "Visit the <b>#vacancies</b> channel today and embark on a journey of endless possibilities. Who knows? Your next career-changing opportunity could be just a click away!",
+    "seoTitle": "Explore Exciting Job Opportunities in the Coding Industry | Passion for Coding",
+    "seoDescription": "Passion for Сoding brings you a curated collection of job openings in the coding industry. Discover diverse opportunities in front-end development, back-end development, software engineering, and more. Join our community and unlock your coding career potential.",
+    "seoKeywords": "Passion for coding, Discord, coding community, job openings, coding job prospects, front-end development, back-end development, full-stack development, UI/UX design, software engineering, career opportunities, community collaboration, coding career potential, programming community, community development, developer communication, IT communication, sharing experiences, technical problems, platform improvement, feedback and suggestions, programming and creativity, skills development"
   }
 }
