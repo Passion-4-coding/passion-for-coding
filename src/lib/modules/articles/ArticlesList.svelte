@@ -30,6 +30,14 @@
       <div>[ <span class="text">{t("vacanciesDate")}</span> ]</div>
     </div>
   </div>
+  <div class="article-short">
+    <h1 class="title">{t("karmaTitle")}</h1>
+    <p class="description">{t("karmaShort")}</p>
+    <div class="attributes">
+      <Link to="/articles/karma"><span class="text">{t("readMore")}</span> ></Link>
+      <div>[ <span class="text">{t("karmaDate")}</span> ]</div>
+    </div>
+  </div>
 </div>
 
 
