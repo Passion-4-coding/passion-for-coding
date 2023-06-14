@@ -85,7 +85,10 @@
     "improvementsDate": "2.06.2023",
     "vacanciesTitle": "Explore Exciting Job Opportunities in the Coding Industry",
     "vacanciesShort": "Are you looking for new opportunities to apply your coding skills and expand your horizons?\n Look no further! Passion for Coding is thrilled to present the #vacancies channel, where you can find a wide range of job openings in the coding industry.",
-    "vacanciesDate": "14.06.2023"
+    "vacanciesDate": "14.06.2023",
+    "karmaTitle": "Unlocking Growth and Engagement: The Power of Karma",
+    "karmaShort": "Today we dive into the vibrant world of Passion for Coding, one of the exciting features of our community is the introduction of karma, a valuable tool, learn how karma encourages engagement, rewards active participation and opens up new opportunities for programmers.",
+    "karmaDate": "15.06.2023"
   },
   "botsArticle": {
     "title": "Introducing AI Bots to the our community.",
@@ -139,5 +142,21 @@
     "seoTitle": "Explore Exciting Job Opportunities in the Coding Industry | Passion for Coding",
     "seoDescription": "Passion for Сoding brings you a curated collection of job openings in the coding industry. Discover diverse opportunities in front-end development, back-end development, software engineering, and more. Join our community and unlock your coding career potential.",
     "seoKeywords": "Passion for coding, Discord, coding community, job openings, coding job prospects, front-end development, back-end development, full-stack development, UI/UX design, software engineering, career opportunities, community collaboration, coding career potential, programming community, community development, developer communication, IT communication, sharing experiences, technical problems, platform improvement, feedback and suggestions, programming and creativity, skills development"
+  },
+  "karmaArticle": {
+    "title": "Unlocking Growth and Engagement: The Power of Karma",
+    "paragraph1": "One fascinating aspect of our community is the implementation of <b>karma</b> — a valuable tool that encourages engagement and rewards active participation. Karma serves as a measure of your contributions and grants you access to different <strong><a href=\"https://pfc.dev/en/roles\" style=\"color: #91adfa; text-decoration: none;\">roles</a></strong> within our Discord server.<br>Let's explore the various ways you can earn karma and unlock new opportunities:<br><br>",
+    "paragraph2": "<b>1. Just chatting:</b> Engaging in conversations within our community is a basic way to earn karma. However, the karma earned in the <b>#coffee-point</b> channel is slightly less than in other channels.<br>So get involved in discussions, share your insights and connect with other programmers to earn karma.<br><br>",
+    "paragraph3": "<b>2. Server Bumping:</b> Promote the visibility of our server by using the <b>/bump</b> and <b>/like</b> commands in the <b>#bot-area</b> channel. You'll receive <b>25</b> karma for each bump. You'll also receive <b>50</b> karma for a night bump between <b>22:00</b> and <b>06:00 UTC</b>. Spread the word and help us grow!<br><br>",
+    "paragraph4": "<b>3. Assisting Others:</b> Offering help and support in the <b>#questions</b> channel to fellow community members is highly encouraged. If your answer is marked with a ✅ reaction by the person who asked the question, indicating its helpfulness, you will earn <b>100</b> karma. Remember, you can earn <b>100</b> karma per answer, but there's <b>no limit</b> to the number of answers you can provide.<br><br>",
+    "paragraph5": "<b>4. Server Boosting:</b> Show your dedication and support for the community by boosting our server. For each boost, you will be rewarded with <b>200</b> karma. Two boosts will give you <b>400</b> karma, and so on.<br>Help us create an even more vibrant space for all members ;3<br><br>",
+    "paragraph6": "<b>5. Sharing Tips:</b> In the <b>#improvements</b> channel, your insightful suggestions and tips can earn you <b>100</b> karma. Be proactive in shaping the growth of our community and contribute to its success!<br><br>",
+    "paragraph7": "<b>6. Quiz:</b> Challenging quizzes will appear <b>several times a day</b> to test your knowledge and skills. Answering the questions correctly will not only improve your understanding, but also <b>earn you karma</b>. If you make it into the top 5(the first 5 members who answered correctly), you'll receive <b>between 15 and 25 karma</b>, depending on the difficulty of the question. Even if you don't make it into the top 5, you can still earn <b>5</b> to <b>15</b> karma. Challenge yourself, prove your expertise and reap the rewards!<br><br>",
+    "paragraph8": "You can check your karma points with <b>/my-karma</b> command. Every <b>24 hours</b>, exactly at <b>17:00 UTC</b> in the <b>#coffee-point</b> channel the bot sends a list of karma leaders for the last 24 hours.<br><br>",
+    "paragraph9": "We encourage you to embrace the concept of karma and become an active member of our community. Share your knowledge, ask for help when you need it, and contribute to discussions and improvements. Together, we can create an even more vibrant and supportive environment for programmers of all levels <3<br><br>",
+    "paragraph10": "Join us today in Passion for Coding and let's embark on an exciting journey of growth and engagement! Together we can do great things!",
+    "seoTitle": "The Power of Karma in Passion for Coding",
+    "seoDescription": "Discover the power of karma in the Passion for Coding community. Learn how karma encourages engagement, rewards active participation, and unlocks new opportunities for programmers. Join us and embark on an exciting journey of growth!",
+    "seoKeywords": "karma, community growth, engagement, Passion for Coding, programming community, coding Discord community, Discord IT server, Discord servers, active participation, opportunities, programmers, coding community, front-end development, back-end development, full-stack development, coding discord"
   }
 }
