@@ -7,19 +7,11 @@
 
 <div class="articles">
   <div class="article-short">
-    <h1 class="title">{t("botsUpdateTitle")}</h1>
-    <p class="description">{t("botsUpdateShort")}</p>
+    <h1 class="title">{t("karmaTitle")}</h1>
+    <p class="description">{t("karmaShort")}</p>
     <div class="attributes">
-      <Link to="/articles/bots-introduction"><span class="text">{t("readMore")}</span> ></Link>
-      <div>[ <span class="text">{t("botsUpdateDate")}</span> ]</div>
-    </div>
-  </div>
-  <div class="article-short">
-    <h1 class="title">{t("improvementsTitle")}</h1>
-    <p class="description">{t("improvementsShort")}</p>
-    <div class="attributes">
-      <Link to="/articles/improvements"><span class="text">{t("readMore")}</span> ></Link>
-      <div>[ <span class="text">{t("improvementsDate")}</span> ]</div>
+      <Link to="/articles/karma"><span class="text">{t("readMore")}</span> ></Link>
+      <div>[ <span class="text">{t("karmaDate")}</span> ]</div>
     </div>
   </div>
   <div class="article-short">
@@ -31,13 +23,22 @@
     </div>
   </div>
   <div class="article-short">
-    <h1 class="title">{t("karmaTitle")}</h1>
-    <p class="description">{t("karmaShort")}</p>
+    <h1 class="title">{t("improvementsTitle")}</h1>
+    <p class="description">{t("improvementsShort")}</p>
     <div class="attributes">
-      <Link to="/articles/karma"><span class="text">{t("readMore")}</span> ></Link>
-      <div>[ <span class="text">{t("karmaDate")}</span> ]</div>
+      <Link to="/articles/improvements"><span class="text">{t("readMore")}</span> ></Link>
+      <div>[ <span class="text">{t("improvementsDate")}</span> ]</div>
     </div>
   </div>
+  <div class="article-short">
+    <h1 class="title">{t("botsUpdateTitle")}</h1>
+    <p class="description">{t("botsUpdateShort")}</p>
+    <div class="attributes">
+      <Link to="/articles/bots-introduction"><span class="text">{t("readMore")}</span> ></Link>
+      <div>[ <span class="text">{t("botsUpdateDate")}</span> ]</div>
+    </div>
+  </div>
+  
 </div>
 
 
