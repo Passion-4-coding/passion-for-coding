@@ -47,10 +47,11 @@
         <p>{@html t("paragraph4")}</p>
         <p>{@html t("paragraph5")}</p>
         <p>{@html t("paragraph6")}</p>
-        <!-- <p>{@html t("paragraph7")}</p> -->
+        <p>{@html t("paragraph7")}</p>
         <p>{@html t("paragraph8")}</p>
         <p>{@html t("paragraph9")}</p>
         <p>{@html t("paragraph10")}</p>
+        <p>{@html t("paragraph11")}</p>
       </div>
     </div>
     <Footer />
