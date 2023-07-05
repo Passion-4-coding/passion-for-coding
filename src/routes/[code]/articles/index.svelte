@@ -36,7 +36,6 @@
   <link rel=“canonical” href="https://pfc.dev/{lang}/articles" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/articles" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/articles" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/articles" />
 </svelte:head>
 
 <div class="container">

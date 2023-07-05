@@ -36,7 +36,6 @@
   <link rel=“canonical” href="https://pfc.dev/{lang}/activities?tab=${tab}" />
   <link rel="alternate" hreflang="uk" href={`https://pfc.dev/ua/activities?tab=${tab}`} />
   <link rel="alternate" hreflang="en" href={`https://pfc.dev/en/activities?tab=${tab}`} />
-  <link rel="alternate" hreflang="ru" href={`https://pfc.dev/ru/activities?tab=${tab}`} />
 </svelte:head>
 
 <div class="activities container">

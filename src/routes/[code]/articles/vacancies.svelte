@@ -34,7 +34,6 @@
   <link rel="canonical" href="https://pfc.dev/{lang}/articles/vacancies" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/vacancies" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/vacancies" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/vacancies" />
 </svelte:head>
 
 <div class="container">

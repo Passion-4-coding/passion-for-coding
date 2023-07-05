@@ -42,7 +42,6 @@
 	<link rel=“canonical” href="https://pfc.dev/{lang}" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru" />
 </svelte:head>
 
 <PageWrapper>

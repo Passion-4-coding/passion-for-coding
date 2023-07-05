@@ -38,7 +38,6 @@
   <meta property="twitter:url" content="https://pfc.dev/{lang}/roles">
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/roles" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/roles" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/roles" />
 </svelte:head>
 
 <div class="roles container">

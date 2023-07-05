@@ -34,7 +34,6 @@
     <link rel="canonical" href="https://pfc.dev/{lang}/articles/karma" />
     <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/karma" />
     <link rel="alternate" hreflang="en" href="https://pfc.dev/en/karma" />
-    <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/karma" />
   </svelte:head>
   
   <div class="container">

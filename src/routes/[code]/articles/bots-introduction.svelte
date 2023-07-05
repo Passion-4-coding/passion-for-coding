@@ -35,7 +35,6 @@
   <link rel=“canonical” href="https://pfc.dev/{lang}/articles/bots-introduction" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/bots-introduction" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/bots-introduction" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/bots-introduction" />
 </svelte:head>
 
 <div class="container">

@@ -42,7 +42,6 @@
   <meta property="twitter:url" content="https://pfc.dev/{lang}/about">
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/about" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/about" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/about" />
 </svelte:head>
 
 <div class="about container">

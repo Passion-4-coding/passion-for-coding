@@ -35,7 +35,6 @@
   <link rel=“canonical” href="https://pfc.dev/{lang}/articles/improvements" />
   <link rel="alternate" hreflang="uk" href="https://pfc.dev/ua/rules" />
   <link rel="alternate" hreflang="en" href="https://pfc.dev/en/rules" />
-  <link rel="alternate" hreflang="ru" href="https://pfc.dev/ru/rules" />
 </svelte:head>
 
 <div class="container">

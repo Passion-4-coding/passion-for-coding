@@ -16,9 +16,6 @@
     <a href={generateLink('ua')} class:active={currentLang === 'ua'}>ua</a>,&nbsp;
   </li>
   <li class="language">
-    <a href={generateLink('ru')} class:active={currentLang === 'ru'}>ru</a>,&nbsp;
-  </li>
-  <li class="language">
     <a href={generateLink('en')} class:active={currentLang === 'en'}>en</a>
     ]
   </li>
