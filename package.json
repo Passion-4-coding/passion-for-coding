@@ -29,6 +29,7 @@
     "typescript": "~4.6.2"
   },
   "dependencies": {
-    "@sveltejs/adapter-netlify": "^1.0.0-next.58"
+    "@sveltejs/adapter-netlify": "^1.0.0-next.58",
+    "date-fns": "^2.30.0"
   }
 }

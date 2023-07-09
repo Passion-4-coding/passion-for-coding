@@ -1,12 +1,15 @@
 <script context="module" lang="ts">
 	import type { Load } from '@sveltejs/kit';
 	import type { Languages } from '$lib/modules/translations';
+  import { getArticles } from '$lib/modules/articles/api';
 
 	export const load: Load = async ({ params, fetch }) => {
 		const code = params.code as Languages;
+    const articles = await getArticles(fetch, code);
 		return {
 			props: {
 				lang: code,
+        articles: articles.list
 			}
 		}
 	}
@@ -16,8 +19,10 @@
   import Footer from "$lib/components/Footer.svelte";
   import { ArticlesList } from "$lib/modules/articles";
   import { useTranslations } from "$lib/modules/translations";
+  import type { IArticle } from '$lib/modules/articles/dto';
 
   export let lang: Languages;
+  export let articles: IArticle[];
 
   const { t } = useTranslations("layout")
 </script>
@@ -39,7 +44,7 @@
 </svelte:head>
 
 <div class="container">
-  <ArticlesList />
+  <ArticlesList articles={articles} />
   <Footer>
     <div class="image-container">
       <img width="350" height="350" src="/images/articles.png" alt="articles">
