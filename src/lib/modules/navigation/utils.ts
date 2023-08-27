@@ -11,7 +11,8 @@ export const NAVIGATION_ITEMS: INavigationItem[] = [
   },
   {
     translationKey: "articles",
-    route: "/articles"
+    route: "https://blog.pfc.dev/",
+    external: true
   },
   {
     translationKey: "rules",

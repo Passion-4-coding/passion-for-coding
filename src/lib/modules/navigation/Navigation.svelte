@@ -11,6 +11,7 @@
   {#each NAVIGATION_ITEMS as item}
     <Link
       to={item.route}
+      external={item.external}
       class="nav-item {$page.url.pathname.includes(item.route) && 'active'}"
       title={t(item.translationKey)}
     >
